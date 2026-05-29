@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_FTPEVENT>
+        <AU_ENTITYNAME><![CDATA[SourceEvent_1508802918589689856_1]]></AU_ENTITYNAME>
+        <AU_CREATIONDATE><![CDATA[2026-05-26 12:07:09.0]]></AU_CREATIONDATE>
+        <AU_MODIFIEDDATE><![CDATA[2026-05-26 12:07:09.0]]></AU_MODIFIEDDATE>
+        <AU_CREATIONMODE><![CDATA[Simple]]></AU_CREATIONMODE>
+        <AU_ACTIVATEFLAG><![CDATA[0]]></AU_ACTIVATEFLAG>
+        <AU_PORT><![CDATA[21]]></AU_PORT>
+        <AU_FTPUSERID><![CDATA[ftpUserId]]></AU_FTPUSERID>
+        <AU_FTPOVERSSL><![CDATA[0]]></AU_FTPOVERSSL>
+        <AU_ACTIVEVERSION><![CDATA[1]]></AU_ACTIVEVERSION>
+        <AU_POLLINGFREQUENCY><![CDATA[5$m]]></AU_POLLINGFREQUENCY>
+        <AU_PROCESSPERPOLL><![CDATA[-1]]></AU_PROCESSPERPOLL>
+        <AU_PROCESSDUPLICATEFILE><![CDATA[0]]></AU_PROCESSDUPLICATEFILE>
+        <AU_FTPSMODE><![CDATA[null]]></AU_FTPSMODE>
+        <AU_ACCOUNTID><![CDATA[FTPAccount:1506952733632892928]]></AU_ACCOUNTID>
+        <AU_DESCRIPTION><![CDATA[SourceEvent_1508802918589689856_1]]></AU_DESCRIPTION>
+        <AU_PREVIOUSVERSION><![CDATA[null]]></AU_PREVIOUSVERSION>
+        <AU_SECURED><![CDATA[0]]></AU_SECURED>
+        <AU_RUNINITIALLOAD><![CDATA[0]]></AU_RUNINITIALLOAD>
+        <AU_ID><![CDATA[1508803676223598592]]></AU_ID>
+        <AU_TRIGGERTYPE><![CDATA[FileExists]]></AU_TRIGGERTYPE>
+        <AU_USEJ2SSH><![CDATA[0]]></AU_USEJ2SSH>
+        <AU_PROCESSEMPTYFILE><![CDATA[0]]></AU_PROCESSEMPTYFILE>
+        <AU_BUSINESSINTERVAL><![CDATA[     ? ]]></AU_BUSINESSINTERVAL>
+        <AU_FILTERIN><![CDATA[*.txt]]></AU_FILTERIN>
+        <AU_KEYMANAGER><![CDATA[null]]></AU_KEYMANAGER>
+        <AU_ADDONCONFIGURATIONS><![CDATA[null]]></AU_ADDONCONFIGURATIONS>
+        <AU_PROCESSHIDDENFILES><![CDATA[0]]></AU_PROCESSHIDDENFILES>
+        <AU_MODIFIEDBY><![CDATA[IndigoUser:127000000001107055536473900001]]></AU_MODIFIEDBY>
+        <AU_MAILNOTIFICATIONACTION><![CDATA[null]]></AU_MAILNOTIFICATIONACTION>
+        <AU_FTPPROTECTIONLEVEL><![CDATA[null]]></AU_FTPPROTECTIONLEVEL>
+        <AU_TRIGGERINSEQUENCE><![CDATA[0]]></AU_TRIGGERINSEQUENCE>
+        <AU_PROJECTOWNER><![CDATA[Project:1509475200961462272]]></AU_PROJECTOWNER>
+        <AU_DEBUGMODE><![CDATA[0]]></AU_DEBUGMODE>
+        <AU_PREFERREDAUTHENTICATIONS><![CDATA[null]]></AU_PREFERREDAUTHENTICATIONS>
+        <AU_USEROWNER><![CDATA[IndigoUser:1507042876511051776]]></AU_USEROWNER>
+        <AU_VERSION><![CDATA[1]]></AU_VERSION>
+        <AU_STABLETIME><![CDATA[1$s]]></AU_STABLETIME>
+        <AU_HOSTNAME><![CDATA[host]]></AU_HOSTNAME>
+        <AU_CALENDARTYPE><![CDATA[AllDays]]></AU_CALENDARTYPE>
+        <AU_CONNECTORNAME><![CDATA[apacheCamel]]></AU_CONNECTORNAME>
+        <AU_FILTEROUT><![CDATA[null]]></AU_FILTEROUT>
+        <AU_GROUPOWNER><![CDATA[IndigoGroup:192168001075148181566048300002]]></AU_GROUPOWNER>
+        <AU_CONFIGMETADATA><![CDATA[null]]></AU_CONFIGMETADATA>
+        <AU_FTPPASSWORD><![CDATA[null]]></AU_FTPPASSWORD>
+        <AU_MISFIREINSTRUCTIONS><![CDATA[ignoreMisfire]]></AU_MISFIREINSTRUCTIONS>
+        <AU_PERMISSIONMASK><![CDATA[770]]></AU_PERMISSIONMASK>
+        <AU_EVENTSTARTDATETIME><![CDATA[null]]></AU_EVENTSTARTDATETIME>
+        <AU_PROCESSDEACTIVATEDSTATEDATA><![CDATA[1]]></AU_PROCESSDEACTIVATEDSTATEDATA>
+        <AU_KEYSTORENAMEFORFTP><![CDATA[null]]></AU_KEYSTORENAMEFORFTP>
+        <AU_WITHOUTVFS><![CDATA[1]]></AU_WITHOUTVFS>
+        <AU_RECEIVEREMAILIDS><![CDATA[null]]></AU_RECEIVEREMAILIDS>
+        <AU_FILEBASELOCATION><![CDATA[/Shivam_Singh/Source/Event@Test.1]]></AU_FILEBASELOCATION>
+        <AU_FTPVALIDATESERVER><![CDATA[0]]></AU_FTPVALIDATESERVER>
+        <AU_SYNCHRONIZED><![CDATA[0]]></AU_SYNCHRONIZED>
+        <AU_TRANSFERTYPE><![CDATA[PASSIVE]]></AU_TRANSFERTYPE>
+        <AU_REVISION><![CDATA[null]]></AU_REVISION>
+        <AU_EVENTEXPIRYDATETIME><![CDATA[null]]></AU_EVENTEXPIRYDATETIME>
+        <AU_COMMENTS><![CDATA[null]]></AU_COMMENTS>
+    </AU_FTPEVENT>
+    <columnInfo dbtype="2">
+        <column name="AU_ID" type="12"/>
+        <column name="AU_VERSION" type="12"/>
+        <column name="AU_PREVIOUSVERSION" type="12"/>
+        <column name="AU_ACTIVEVERSION" type="2"/>
+        <column name="AU_ENTITYNAME" type="12"/>
+        <column name="AU_USEROWNER" type="12"/>
+        <column name="AU_GROUPOWNER" type="12"/>
+        <column name="AU_PERMISSIONMASK" type="12"/>
+        <column name="AU_DESCRIPTION" type="12"/>
+        <column name="AU_COMMENTS" type="12"/>
+        <column name="AU_MODIFIEDBY" type="12"/>
+        <column name="AU_CREATIONDATE" type="93"/>
+        <column name="AU_MODIFIEDDATE" type="93"/>
+        <column name="AU_REVISION" type="12"/>
+        <column name="AU_SYNCHRONIZED" type="2"/>
+        <column name="AU_PROJECTOWNER" type="12"/>
+        <column name="AU_ACTIVATEFLAG" type="2"/>
+        <column name="AU_EVENTSTARTDATETIME" type="12"/>
+        <column name="AU_EVENTEXPIRYDATETIME" type="12"/>
+        <column name="AU_TRIGGERINSEQUENCE" type="2"/>
+        <column name="AU_CALENDARTYPE" type="12"/>
+        <column name="AU_BUSINESSINTERVAL" type="12"/>
+        <column name="AU_CREATIONMODE" type="12"/>
+        <column name="AU_RECEIVEREMAILIDS" type="12"/>
+        <column name="AU_MISFIREINSTRUCTIONS" type="12"/>
+        <column name="AU_PROCESSPERPOLL" type="2"/>
+        <column name="AU_HOSTNAME" type="12"/>
+        <column name="AU_PORT" type="2"/>
+        <column name="AU_FTPUSERID" type="12"/>
+        <column name="AU_FTPPASSWORD" type="12"/>
+        <column name="AU_TRANSFERTYPE" type="12"/>
+        <column name="AU_TRIGGERTYPE" type="12"/>
+        <column name="AU_SECURED" type="2"/>
+        <column name="AU_FTPOVERSSL" type="2"/>
+        <column name="AU_FTPSMODE" type="12"/>
+        <column name="AU_FILTERIN" type="2005"/>
+        <column name="AU_FILTEROUT" type="2005"/>
+        <column name="AU_FILEBASELOCATION" type="12"/>
+        <column name="AU_POLLINGFREQUENCY" type="12"/>
+        <column name="AU_STABLETIME" type="12"/>
+        <column name="AU_WITHOUTVFS" type="2"/>
+        <column name="AU_FTPPROTECTIONLEVEL" type="12"/>
+        <column name="AU_KEYMANAGER" type="12"/>
+        <column name="AU_FTPVALIDATESERVER" type="2"/>
+        <column name="AU_KEYSTORENAMEFORFTP" type="12"/>
+        <column name="AU_USEJ2SSH" type="2"/>
+        <column name="AU_ACCOUNTID" type="12"/>
+        <column name="AU_CONNECTORNAME" type="12"/>
+        <column name="AU_DEBUGMODE" type="2"/>
+        <column name="AU_RUNINITIALLOAD" type="2"/>
+        <column name="AU_PROCESSDEACTIVATEDSTATEDATA" type="2"/>
+        <column name="AU_PROCESSDUPLICATEFILE" type="2"/>
+        <column name="AU_MAILNOTIFICATIONACTION" type="12"/>
+        <column name="AU_ADDONCONFIGURATIONS" type="2005"/>
+        <column name="AU_PREFERREDAUTHENTICATIONS" type="12"/>
+        <column name="AU_PROCESSHIDDENFILES" type="2"/>
+        <column name="AU_PROCESSEMPTYFILE" type="2"/>
+        <column name="AU_CONFIGMETADATA" type="12"/>
+    </columnInfo>
+</data>
