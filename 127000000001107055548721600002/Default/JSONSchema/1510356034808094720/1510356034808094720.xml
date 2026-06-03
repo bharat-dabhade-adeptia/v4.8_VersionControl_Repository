@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_JSONSCHEMA>
+        <au_modifiedDate><![CDATA[2026-05-30T18:56:08]]></au_modifiedDate>
+        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_jsonType><![CDATA[0]]></au_jsonType>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_jsonFilePath><![CDATA[C:\fakepath\SourceFile_Correct.json]]></au_jsonFilePath>
+        <au_originalJson><![CDATA[{
+    "feed_no": "ABU792382A",
+    "policy": [{
+
+            "policy_no": "PBU792382A",
+
+            "insured_risk_location": [{
+                    "risk_location_cd": 123112,
+                    "location": "Location_C1",
+                    "building": "BLD1",
+                    "lob": [{
+                            "lobPR": [{
+                                    "lob_cd": "PR",
+                                    "coverage": [{
+                                            "dsp_division_no": 66,
+                                            "coverage_transaction_effective_dt": "2010-02-01",
+                                            "coverage_transaction_expiration_dt": "2011-02-01",
+                                            "master_line_of_business_cd": "MC1",
+                                            "coverage_line_cd": 1,
+                                            "major_class_cd": 32,
+                                            "gross_written_premium_am": 5020.09,
+                                            "statplan26": [
+                                                {
+                                                    "rating_month_no": 0,
+                                                    "rating_year_no": 0,
+                                                    "iso_territory_cd": "",
+                                                    "package_monoline_cd": "",
+                                                    "coverage_subline_cd": "",
+                                                    "exposure_classification_cd": "",
+                                                    "mold_damage_coverage_cd": "",
+                                                    "exposure_am": "",
+                                                    "rate_deductible_am": "",
+                                                    "rating_identification_cd": "",
+                                                    "equipment_type_cd": "",
+                                                    "iso_coverage_cd": "",
+                                                    "insurance_limit_am": "",
+                                                    "deductible_amount_cd": "",
+                                                    "terrorism_coverage_cd": "",
+                                                    "loss_cost_multiplier_cd": "",
+                                                    "experience_modification_rt": "",
+                                                    "schedule_modification_rt": "",
+                                                    "package_modification_rt": "",
+                                                    "expense_modification_rt": "",
+                                                    "commission_modification_rt": "",
+                                                    "deductible_modification_rt": "",
+                                                    "risk_location_postal_cd": "",
+                                                    "bureau_admitted_cd": ""
+                                                }
+                                            ],
+
+                                            "statplan11": [
+                                            {
+                                                    "rating_month_no": 3,
+                                                    "rating_year_no": 23,
+                                                    "iso_territory_cd": "180",
+                                                    "package_monoline_cd": "10",
+                                                    "coverage_subline_cd": "015",
+                                                    "construction_outside_bgii_cd": "1",
+                                                    "fire_protection_type_cd": 4,
+                                                    "construction_inside_BGII_cd": 0,
+                                                    "flood_coverage_am": 0,
+                                                    "ordinance_law_coverage_cd": "1",
+                                                    "coinsurance_percent_cd": "4",
+                                                    "mold_damage_coverage_cd": "8",
+                                                    "flood_occurrence_limit_cd": "",
+                                                    "flood_annual_aggregate_cd": "9",
+                                                    "green_upgrade_coverage_cd": "",
+                                                    "exposure_classification_cd": "0196",
+                                                    "deductible_amount_cd": "9",
+                                                    "exposure_am": "581",
+                                                    "occupancy_group_cd": "",
+                                                    "construction_year_cd": "",
+                                                    "terrorism_coverage_cd": "7",
+                                                    "state_exception_cd": "",
+                                                    "iso_coverage_cd": "1",
+                                                    "rating_identification_cd": "2",
+                                                    "state_exception_ii_cd": "",
+                                                    "loss_cost_date_month_no": 0,
+                                                    "loss_cost_date_year_no": 0,
+                                                    "bceg_cd": "",
+                                                    "loss_cost_multiplier_cd": "2.1459999e+000",
+                                                    "experience_modification_rt": "",
+                                                    "schedule_modification_rt": "",
+                                                    "package_modification_rt": "",
+                                                    "expense_modification_rt": "",
+                                                    "commission_modification_rt": "",
+                                                    "deductible_modification_rt": "",
+                                                    "risk_location_postal_cd": "63080",
+                                                    "bureau_admitted_cd": "",
+                                                    "terrorism_policy_cd": "",
+                                                    "policy_category_cd": "",
+                                                    "naics_cd": "",
+                                                    "coverage_am": "",
+                                                    "coverage_type_cd": "",
+                                                    "location_ct": "",
+                                                    "peril_exclusion_cd": "",
+                                                    "indivisible_property_construction_cd": "",
+                                                    "drone_ownership_operation_cd": "",
+                                                    "drone_security_features_cd": "",
+                                                    "drone_primary_location_type_cd": "",
+                                                    "drone_max_per_occurence_limit_am": "",
+                                                    "drone_serial_no": "",
+                                                    "drone_loss_settlement_cd": "",
+                                                    "drone_modifications_cd": "",
+                                                    "drone_control_method_cd": "",
+                                                    "flood_stories_cd": "",
+                                                    "flood_coverage_floor_cd": "",
+                                                    "flood_additional_construction_cd": "",
+                                                    "flood_community_rating_cd": "",
+                                                    "flood_attachment_indicator_cd": "",
+                                                    "flood_first_floor_height_am": "",
+                                                    "flood_nfip_zone_cd": "",
+                                                    "flood_deductible_cd": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }, {
+                            "lobGL": [{
+                                    "lob_cd": "GL",
+                                    "coverage": [{
+                                            "dsp_division_no": 66,
+                                            "coverage_transaction_effective_dt": "2010-02-01",
+                                            "coverage_transaction_expiration_dt": "2011-02-01",
+                                            "master_line_of_business_cd": "MC1",
+                                            "coverage_line_cd": 1,
+                                            "major_class_cd": 32,
+                                            "gross_written_premium_am": 5020.09,
+                                            "statplan15": [{
+                                                    "rating_month_no": 0,
+                                                    "rating_year_no": 0,
+                                                    "iso_territory_cd": "",
+                                                    "package_monoline_cd": "",
+                                                    "coverage_subline_cd": "",
+                                                    "exposure_classification_cd": "",
+                                                    "exposure_am": "",
+                                                    "bi_exposure_type_cd": "",
+                                                    "pd_exposure_type_cd": "",
+                                                    "bi_provision_limit_cd": "",
+                                                    "bi_provision_deductible_cd": "",
+                                                    "pd_limit_cd": "",
+                                                    "pd_deductibe_cd": "",
+                                                    "rating_identification_cd": "",
+                                                    "iso_coverage_cd": "",
+                                                    "limit_basis_cd": "",
+                                                    "risk_identification_cd": "",
+                                                    "mold_damage_coverage_cd": "",
+                                                    "copayment_percent_cd": "",
+                                                    "historical_incurred_loss_cd": "",
+                                                    "state_exception_cd": "",
+                                                    "exposure_basis_cd": "",
+                                                    "coinsurance_percent_cd": "",
+                                                    "ecommerce_risk_cd": "",
+                                                    "producer_distribution_type_cd": "",
+                                                    "retroactive_sir_cd": "",
+                                                    "terrorism_coverage_cd": "",
+                                                    "claims_made_month_no": 0,
+                                                    "claims_made_year_no": 0,
+                                                    "loss_cost_multiplier_cd": "",
+                                                    "experience_modification_rt": "",
+                                                    "schedule_modification_rt": "",
+                                                    "package_modification_rt": "",
+                                                    "expense_modification_rt": "",
+                                                    "commission_modification_rt": "",
+                                                    "deductible_modification_rt": "",
+                                                    "risk_location_postal_cd": "",
+                                                    "bureau_admitted_cd": "",
+                                                    "terrorism_policy_cd": "",
+                                                    "policy_category_cd": "",
+                                                    "naics_cd": "",
+                                                    "coverage_am": "",
+                                                    "coverage_type_cd": "",
+                                                    "practice_area_percent_cd": 0,
+                                                    "revenue_classification_cd": 0,
+                                                    "drone_manufacturer_model_cd": "",
+                                                    "drone_ownership_operation_cd": "",
+                                                    "drone_primary_location_type_cd": "",
+                                                    "drone_aggregate_endorsement_liability_limit_cd": 0,
+                                                    "drone_primary_usage_cd": "",
+                                                    "drone_modifications_cd": "",
+                                                    "drone_pilot_certification_level_cd": "",
+                                                    "drone_weight_cd": 0,
+                                                    "drone_operation_hours_cd": "",
+                                                    "drone_operator_experience_years_cd": "",
+                                                    "drone_aggregate_endorsement_liability_limit_am": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+
+                                }
+                            ]
+
+                        }
+                    ]
+                }
+            ],
+
+            "surplus_line_details": {
+                "agent_nm": "LC",
+                "license_no": "29J8303",
+                "license_state_cd": 2,
+                "agent_address": {
+                    "country_cd": "USA",
+                    "postal_cd": "16252-2224",
+                    "state_cd": "IL",
+                    "city_nm": "Chicago",
+                    "address_line_2_tx": "Suite 205",
+                    "address_line_1_tx": "123 Main St",
+                    "address_type_cd": "BLD"
+                },
+                "phone_num": "111-222-3333"
+
+            }
+        }
+    ]
+}]]></au_originalJson>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_removeLeadingZeros><![CDATA[0]]></au_removeLeadingZeros>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <AU_JSON_SCHEMA_SPECIFICATION><![CDATA[0]]></AU_JSON_SCHEMA_SPECIFICATION>
+        <xsdFilePath><![CDATA[null]]></xsdFilePath>
+        <au_version><![CDATA[1]]></au_version>
+        <au_json><![CDATA[{"fieldName":"Root","expanded":true,"leaf":false,"children":[{"fieldName":"feed_no","expanded":true,"isAttribute":false,"value":"ABU792382A","leaf":true},{"fieldName":"policy","expanded":true,"isAttribute":false,"leaf":false,"value":"\n  ","children":[{"fieldName":"policy_no","expanded":true,"isAttribute":false,"value":"PBU792382A","leaf":true},{"fieldName":"insured_risk_location","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"risk_location_cd","expanded":true,"isAttribute":false,"value":"123112","leaf":true},{"fieldName":"location","expanded":true,"isAttribute":false,"value":"Location_C1","leaf":true},{"fieldName":"building","expanded":true,"isAttribute":false,"value":"BLD1","leaf":true},{"fieldName":"lob","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"lobPR","expanded":true,"isAttribute":false,"leaf":false,"value":"\n        ","children":[{"fieldName":"lob_cd","expanded":true,"isAttribute":false,"value":"PR","leaf":true},{"fieldName":"coverage","expanded":true,"isAttribute":false,"leaf":false,"value":"\n          ","children":[{"fieldName":"dsp_division_no","expanded":true,"isAttribute":false,"value":"66","leaf":true},{"fieldName":"coverage_transaction_effective_dt","expanded":true,"isAttribute":false,"value":"2010-02-01","leaf":true},{"fieldName":"coverage_transaction_expiration_dt","expanded":true,"isAttribute":false,"value":"2011-02-01","leaf":true},{"fieldName":"master_line_of_business_cd","expanded":true,"isAttribute":false,"value":"MC1","leaf":true},{"fieldName":"coverage_line_cd","expanded":true,"isAttribute":false,"value":"1","leaf":true},{"fieldName":"major_class_cd","expanded":true,"isAttribute":false,"value":"32","leaf":true},{"fieldName":"gross_written_premium_am","expanded":true,"isAttribute":false,"value":"5020.09","leaf":true},{"fieldName":"statplan26","expanded":true,"isAttribute":false,"leaf":false,"value":"\n            ","children":[{"fieldName":"rating_month_no","expanded":true,"isAttribute":false,"value":"0","leaf":true},{"fieldName":"rating_year_no","expanded":true,"isAttribute":false,"value":"0","leaf":true},{"fieldName":"iso_territory_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"package_monoline_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"coverage_subline_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"exposure_classification_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"mold_damage_coverage_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"exposure_am","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"rate_deductible_am","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"rating_identification_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"equipment_type_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"iso_coverage_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"insurance_limit_am","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"deductible_amount_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"terrorism_coverage_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"loss_cost_multiplier_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"experience_modification_rt","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"schedule_modification_rt","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"package_modification_rt","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"expense_modification_rt","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"commission_modification_rt","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"deductible_modification_rt","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"risk_location_postal_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"bureau_admitted_cd","expanded":true,"isAttribute":false,"value":"","leaf":true}]},{"fieldName":"statplan11","expanded":true,"isAttribute":false,"leaf":false,"value":"\n            ","children":[{"fieldName":"rating_month_no","expanded":true,"isAttribute":false,"value":"3","leaf":true},{"fieldName":"rating_year_no","expanded":true,"isAttribute":false,"value":"23","leaf":true},{"fieldName":"iso_territory_cd","expanded":true,"isAttribute":false,"value":"180","leaf":true},{"fieldName":"package_monoline_cd","expanded":true,"isAttribute":false,"value":"10","leaf":true},{"fieldName":"coverage_subline_cd","expanded":true,"isAttribute":false,"value":"015","leaf":true},{"fieldName":"construction_outside_bgii_cd","expanded":true,"isAttribute":false,"value":"1","leaf":true},{"fieldName":"fire_protection_type_cd","expanded":true,"isAttribute":false,"value":"4","leaf":true},{"fieldName":"construction_inside_BGII_cd","expanded":true,"isAttribute":false,"value":"0","leaf":true},{"fieldName":"flood_coverage_am","expanded":true,"isAttribute":false,"value":"0","leaf":true},{"fieldName":"ordinance_law_coverage_cd","expanded":true,"isAttribute":false,"value":"1","leaf":true},{"fieldName":"coinsurance_percent_cd","expanded":true,"isAttribute":false,"value":"4","leaf":true},{"fieldName":"mold_damage_coverage_cd","expanded":true,"isAttribute":false,"value":"8","leaf":true},{"fieldName":"flood_occurrence_limit_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"flood_annual_aggregate_cd","expanded":true,"isAttribute":false,"value":"9","leaf":true},{"fieldName":"green_upgrade_coverage_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"exposure_classification_cd","expanded":true,"isAttribute":false,"value":"0196","leaf":true},{"fieldName":"deductible_amount_cd","expanded":true,"isAttribute":false,"value":"9","leaf":true},{"fieldName":"exposure_am","expanded":true,"isAttribute":false,"value":"581","leaf":true},{"fieldName":"occupancy_group_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"construction_year_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"terrorism_coverage_cd","expanded":true,"isAttribute":false,"value":"7","leaf":true},{"fieldName":"state_exception_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"iso_coverage_cd","expanded":true,"isAttribute":false,"value":"1","leaf":true},{"fieldName":"rating_identification_cd","expanded":true,"isAttribute":false,"value":"2","leaf":true},{"fieldName":"state_exception_ii_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"loss_cost_date_month_no","expanded":true,"isAttribute":false,"value":"0","leaf":true},{"fieldName":"loss_cost_date_year_no","expanded":true,"isAttribute":false,"value":"0","leaf":true},{"fieldName":"bceg_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"loss_cost_multiplier_cd","expanded":true,"isAttribute":false,"value":"2.1459999e+000","leaf":true},{"fieldName":"experience_modification_rt","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"schedule_modification_rt","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"package_modification_rt","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"expense_modification_rt","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"commission_modification_rt","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"deductible_modification_rt","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"risk_location_postal_cd","expanded":true,"isAttribute":false,"value":"63080","leaf":true},{"fieldName":"bureau_admitted_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"terrorism_policy_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"policy_category_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"naics_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"coverage_am","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"coverage_type_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"location_ct","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"peril_exclusion_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"indivisible_property_construction_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"drone_ownership_operation_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"drone_security_features_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"drone_primary_location_type_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"drone_max_per_occurence_limit_am","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"drone_serial_no","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"drone_loss_settlement_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"drone_modifications_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"drone_control_method_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"flood_stories_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"flood_coverage_floor_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"flood_additional_construction_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"flood_community_rating_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"flood_attachment_indicator_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"flood_first_floor_height_am","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"flood_nfip_zone_cd","expanded":true,"isAttribute":false,"value":"","leaf":true},{"fieldName":"flood_deductible_cd","expanded":true,"isAttribute":false,"value":"","leaf":true}]}]}]}]}]},{"fieldName":"surplus_line_details","expanded":true,"isAttribute":false,"leaf":false,"value":"\n    ","children":[{"fieldName":"agent_nm","expanded":true,"isAttribute":false,"value":"LC","leaf":true},{"fieldName":"license_no","expanded":true,"isAttribute":false,"value":"29J8303","leaf":true},{"fieldName":"license_state_cd","expanded":true,"isAttribute":false,"value":"2","leaf":true},{"fieldName":"agent_address","expanded":true,"isAttribute":false,"leaf":false,"value":"\n      ","children":[{"fieldName":"country_cd","expanded":true,"isAttribute":false,"value":"USA","leaf":true},{"fieldName":"postal_cd","expanded":true,"isAttribute":false,"value":"16252-2224","leaf":true},{"fieldName":"state_cd","expanded":true,"isAttribute":false,"value":"IL","leaf":true},{"fieldName":"city_nm","expanded":true,"isAttribute":false,"value":"Chicago","leaf":true},{"fieldName":"address_line_2_tx","expanded":true,"isAttribute":false,"value":"Suite 205","leaf":true},{"fieldName":"address_line_1_tx","expanded":true,"isAttribute":false,"value":"123 Main St","leaf":true},{"fieldName":"address_type_cd","expanded":true,"isAttribute":false,"value":"BLD","leaf":true}]},{"fieldName":"phone_num","expanded":true,"isAttribute":false,"value":"111-222-3333","leaf":true}]}]}]}]]></au_json>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <AU_QUEUE_CAPACITY><![CDATA[1000]]></AU_QUEUE_CAPACITY>
+        <au_id><![CDATA[1510356034808094720]]></au_id>
+        <au_arrayFields><![CDATA[/Root/policy,/Root/policy/insured_risk_location,/Root/policy/insured_risk_location/lob,/Root/policy/insured_risk_location/lob/lobPR,/Root/policy/insured_risk_location/lob/lobPR/coverage,/Root/policy/insured_risk_location/lob/lobPR/coverage/statplan26,/Root/policy/insured_risk_location/lob/lobPR/coverage/statplan11,/Root/policy/insured_risk_location/lob/lobGL,/Root/policy/insured_risk_location/lob/lobGL/coverage,/Root/policy/insured_risk_location/lob/lobGL/coverage/statplan15]]></au_arrayFields>
+        <au_description><![CDATA[KG_JSON]]></au_description>
+        <au_specialCharacters><![CDATA[null]]></au_specialCharacters>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <AU_ERROR_PATH_LOCATION><![CDATA[]]></AU_ERROR_PATH_LOCATION>
+        <AU_RECORD_IDENTIFIER_XPATH><![CDATA[]]></AU_RECORD_IDENTIFIER_XPATH>
+        <au_creationDate><![CDATA[2026-05-30T18:55:40]]></au_creationDate>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_entityName><![CDATA[KG_JSON]]></au_entityName>
+        <AU_VALIDATION><![CDATA[0]]></AU_VALIDATION>
+        <AU_REFERENCE_IDENTIFIER_XPATH><![CDATA[]]></AU_REFERENCE_IDENTIFIER_XPATH>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <AU_OPTIMIZE_PROCESSING><![CDATA[0]]></AU_OPTIMIZE_PROCESSING>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
+        <au_xsd><![CDATA[<Root>
+  <feed_no>[ABPM_._ESCAPE_._CDATA_._START]ABU792382A[ABPM_._ESCAPE_._CDATA_._END]</feed_no>
+  <policy>
+    <policy_no>[ABPM_._ESCAPE_._CDATA_._START]PBU792382A[ABPM_._ESCAPE_._CDATA_._END]</policy_no>
+    <insured_risk_location>
+      <risk_location_cd>123112</risk_location_cd>
+      <location>[ABPM_._ESCAPE_._CDATA_._START]Location_C1[ABPM_._ESCAPE_._CDATA_._END]</location>
+      <building>[ABPM_._ESCAPE_._CDATA_._START]BLD1[ABPM_._ESCAPE_._CDATA_._END]</building>
+      <lob>
+        <lobPR>
+          <lob_cd>[ABPM_._ESCAPE_._CDATA_._START]PR[ABPM_._ESCAPE_._CDATA_._END]</lob_cd>
+          <coverage>
+            <dsp_division_no>66</dsp_division_no>
+            <coverage_transaction_effective_dt>[ABPM_._ESCAPE_._CDATA_._START]2010-02-01[ABPM_._ESCAPE_._CDATA_._END]</coverage_transaction_effective_dt>
+            <coverage_transaction_expiration_dt>[ABPM_._ESCAPE_._CDATA_._START]2011-02-01[ABPM_._ESCAPE_._CDATA_._END]</coverage_transaction_expiration_dt>
+            <master_line_of_business_cd>[ABPM_._ESCAPE_._CDATA_._START]MC1[ABPM_._ESCAPE_._CDATA_._END]</master_line_of_business_cd>
+            <coverage_line_cd>1</coverage_line_cd>
+            <major_class_cd>32</major_class_cd>
+            <gross_written_premium_am>[ABPM_._ESCAPE_._CDATA_._START]5020.09[ABPM_._ESCAPE_._CDATA_._END]</gross_written_premium_am>
+            <statplan26>
+              <rating_month_no>0</rating_month_no>
+              <rating_year_no>0</rating_year_no>
+              <iso_territory_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</iso_territory_cd>
+              <package_monoline_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</package_monoline_cd>
+              <coverage_subline_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</coverage_subline_cd>
+              <exposure_classification_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</exposure_classification_cd>
+              <mold_damage_coverage_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</mold_damage_coverage_cd>
+              <exposure_am>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</exposure_am>
+              <rate_deductible_am>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</rate_deductible_am>
+              <rating_identification_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</rating_identification_cd>
+              <equipment_type_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</equipment_type_cd>
+              <iso_coverage_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</iso_coverage_cd>
+              <insurance_limit_am>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</insurance_limit_am>
+              <deductible_amount_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</deductible_amount_cd>
+              <terrorism_coverage_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</terrorism_coverage_cd>
+              <loss_cost_multiplier_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</loss_cost_multiplier_cd>
+              <experience_modification_rt>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</experience_modification_rt>
+              <schedule_modification_rt>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</schedule_modification_rt>
+              <package_modification_rt>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</package_modification_rt>
+              <expense_modification_rt>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</expense_modification_rt>
+              <commission_modification_rt>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</commission_modification_rt>
+              <deductible_modification_rt>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</deductible_modification_rt>
+              <risk_location_postal_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</risk_location_postal_cd>
+              <bureau_admitted_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</bureau_admitted_cd>
+            </statplan26>
+            <statplan11>
+              <rating_month_no>3</rating_month_no>
+              <rating_year_no>23</rating_year_no>
+              <iso_territory_cd>[ABPM_._ESCAPE_._CDATA_._START]180[ABPM_._ESCAPE_._CDATA_._END]</iso_territory_cd>
+              <package_monoline_cd>[ABPM_._ESCAPE_._CDATA_._START]10[ABPM_._ESCAPE_._CDATA_._END]</package_monoline_cd>
+              <coverage_subline_cd>[ABPM_._ESCAPE_._CDATA_._START]015[ABPM_._ESCAPE_._CDATA_._END]</coverage_subline_cd>
+              <construction_outside_bgii_cd>[ABPM_._ESCAPE_._CDATA_._START]1[ABPM_._ESCAPE_._CDATA_._END]</construction_outside_bgii_cd>
+              <fire_protection_type_cd>4</fire_protection_type_cd>
+              <construction_inside_BGII_cd>0</construction_inside_BGII_cd>
+              <flood_coverage_am>0</flood_coverage_am>
+              <ordinance_law_coverage_cd>[ABPM_._ESCAPE_._CDATA_._START]1[ABPM_._ESCAPE_._CDATA_._END]</ordinance_law_coverage_cd>
+              <coinsurance_percent_cd>[ABPM_._ESCAPE_._CDATA_._START]4[ABPM_._ESCAPE_._CDATA_._END]</coinsurance_percent_cd>
+              <mold_damage_coverage_cd>[ABPM_._ESCAPE_._CDATA_._START]8[ABPM_._ESCAPE_._CDATA_._END]</mold_damage_coverage_cd>
+              <flood_occurrence_limit_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</flood_occurrence_limit_cd>
+              <flood_annual_aggregate_cd>[ABPM_._ESCAPE_._CDATA_._START]9[ABPM_._ESCAPE_._CDATA_._END]</flood_annual_aggregate_cd>
+              <green_upgrade_coverage_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</green_upgrade_coverage_cd>
+              <exposure_classification_cd>[ABPM_._ESCAPE_._CDATA_._START]0196[ABPM_._ESCAPE_._CDATA_._END]</exposure_classification_cd>
+              <deductible_amount_cd>[ABPM_._ESCAPE_._CDATA_._START]9[ABPM_._ESCAPE_._CDATA_._END]</deductible_amount_cd>
+              <exposure_am>[ABPM_._ESCAPE_._CDATA_._START]581[ABPM_._ESCAPE_._CDATA_._END]</exposure_am>
+              <occupancy_group_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</occupancy_group_cd>
+              <construction_year_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</construction_year_cd>
+              <terrorism_coverage_cd>[ABPM_._ESCAPE_._CDATA_._START]7[ABPM_._ESCAPE_._CDATA_._END]</terrorism_coverage_cd>
+              <state_exception_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</state_exception_cd>
+              <iso_coverage_cd>[ABPM_._ESCAPE_._CDATA_._START]1[ABPM_._ESCAPE_._CDATA_._END]</iso_coverage_cd>
+              <rating_identification_cd>[ABPM_._ESCAPE_._CDATA_._START]2[ABPM_._ESCAPE_._CDATA_._END]</rating_identification_cd>
+              <state_exception_ii_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</state_exception_ii_cd>
+              <loss_cost_date_month_no>0</loss_cost_date_month_no>
+              <loss_cost_date_year_no>0</loss_cost_date_year_no>
+              <bceg_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</bceg_cd>
+              <loss_cost_multiplier_cd>[ABPM_._ESCAPE_._CDATA_._START]2.1459999e+000[ABPM_._ESCAPE_._CDATA_._END]</loss_cost_multiplier_cd>
+              <experience_modification_rt>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</experience_modification_rt>
+              <schedule_modification_rt>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</schedule_modification_rt>
+              <package_modification_rt>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</package_modification_rt>
+              <expense_modification_rt>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</expense_modification_rt>
+              <commission_modification_rt>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</commission_modification_rt>
+              <deductible_modification_rt>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</deductible_modification_rt>
+              <risk_location_postal_cd>[ABPM_._ESCAPE_._CDATA_._START]63080[ABPM_._ESCAPE_._CDATA_._END]</risk_location_postal_cd>
+              <bureau_admitted_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</bureau_admitted_cd>
+              <terrorism_policy_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</terrorism_policy_cd>
+              <policy_category_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</policy_category_cd>
+              <naics_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</naics_cd>
+              <coverage_am>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</coverage_am>
+              <coverage_type_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</coverage_type_cd>
+              <location_ct>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</location_ct>
+              <peril_exclusion_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</peril_exclusion_cd>
+              <indivisible_property_construction_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</indivisible_property_construction_cd>
+              <drone_ownership_operation_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</drone_ownership_operation_cd>
+              <drone_security_features_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</drone_security_features_cd>
+              <drone_primary_location_type_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</drone_primary_location_type_cd>
+              <drone_max_per_occurence_limit_am>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</drone_max_per_occurence_limit_am>
+              <drone_serial_no>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</drone_serial_no>
+              <drone_loss_settlement_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</drone_loss_settlement_cd>
+              <drone_modifications_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</drone_modifications_cd>
+              <drone_control_method_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</drone_control_method_cd>
+              <flood_stories_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</flood_stories_cd>
+              <flood_coverage_floor_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</flood_coverage_floor_cd>
+              <flood_additional_construction_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</flood_additional_construction_cd>
+              <flood_community_rating_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</flood_community_rating_cd>
+              <flood_attachment_indicator_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</flood_attachment_indicator_cd>
+              <flood_first_floor_height_am>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</flood_first_floor_height_am>
+              <flood_nfip_zone_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</flood_nfip_zone_cd>
+              <flood_deductible_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</flood_deductible_cd>
+            </statplan11>
+          </coverage>
+        </lobPR>
+      </lob>
+      <lob>
+        <lobGL>
+          <lob_cd>[ABPM_._ESCAPE_._CDATA_._START]GL[ABPM_._ESCAPE_._CDATA_._END]</lob_cd>
+          <coverage>
+            <dsp_division_no>66</dsp_division_no>
+            <coverage_transaction_effective_dt>[ABPM_._ESCAPE_._CDATA_._START]2010-02-01[ABPM_._ESCAPE_._CDATA_._END]</coverage_transaction_effective_dt>
+            <coverage_transaction_expiration_dt>[ABPM_._ESCAPE_._CDATA_._START]2011-02-01[ABPM_._ESCAPE_._CDATA_._END]</coverage_transaction_expiration_dt>
+            <master_line_of_business_cd>[ABPM_._ESCAPE_._CDATA_._START]MC1[ABPM_._ESCAPE_._CDATA_._END]</master_line_of_business_cd>
+            <coverage_line_cd>1</coverage_line_cd>
+            <major_class_cd>32</major_class_cd>
+            <gross_written_premium_am>[ABPM_._ESCAPE_._CDATA_._START]5020.09[ABPM_._ESCAPE_._CDATA_._END]</gross_written_premium_am>
+            <statplan15>
+              <rating_month_no>0</rating_month_no>
+              <rating_year_no>0</rating_year_no>
+              <iso_territory_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</iso_territory_cd>
+              <package_monoline_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</package_monoline_cd>
+              <coverage_subline_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</coverage_subline_cd>
+              <exposure_classification_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</exposure_classification_cd>
+              <exposure_am>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</exposure_am>
+              <bi_exposure_type_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</bi_exposure_type_cd>
+              <pd_exposure_type_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</pd_exposure_type_cd>
+              <bi_provision_limit_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</bi_provision_limit_cd>
+              <bi_provision_deductible_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</bi_provision_deductible_cd>
+              <pd_limit_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</pd_limit_cd>
+              <pd_deductibe_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</pd_deductibe_cd>
+              <rating_identification_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</rating_identification_cd>
+              <iso_coverage_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</iso_coverage_cd>
+              <limit_basis_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</limit_basis_cd>
+              <risk_identification_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</risk_identification_cd>
+              <mold_damage_coverage_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</mold_damage_coverage_cd>
+              <copayment_percent_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</copayment_percent_cd>
+              <historical_incurred_loss_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</historical_incurred_loss_cd>
+              <state_exception_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</state_exception_cd>
+              <exposure_basis_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</exposure_basis_cd>
+              <coinsurance_percent_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</coinsurance_percent_cd>
+              <ecommerce_risk_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</ecommerce_risk_cd>
+              <producer_distribution_type_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</producer_distribution_type_cd>
+              <retroactive_sir_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</retroactive_sir_cd>
+              <terrorism_coverage_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</terrorism_coverage_cd>
+              <claims_made_month_no>0</claims_made_month_no>
+              <claims_made_year_no>0</claims_made_year_no>
+              <loss_cost_multiplier_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</loss_cost_multiplier_cd>
+              <experience_modification_rt>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</experience_modification_rt>
+              <schedule_modification_rt>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</schedule_modification_rt>
+              <package_modification_rt>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</package_modification_rt>
+              <expense_modification_rt>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</expense_modification_rt>
+              <commission_modification_rt>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</commission_modification_rt>
+              <deductible_modification_rt>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</deductible_modification_rt>
+              <risk_location_postal_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</risk_location_postal_cd>
+              <bureau_admitted_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</bureau_admitted_cd>
+              <terrorism_policy_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</terrorism_policy_cd>
+              <policy_category_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</policy_category_cd>
+              <naics_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</naics_cd>
+              <coverage_am>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</coverage_am>
+              <coverage_type_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</coverage_type_cd>
+              <practice_area_percent_cd>0</practice_area_percent_cd>
+              <revenue_classification_cd>0</revenue_classification_cd>
+              <drone_manufacturer_model_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</drone_manufacturer_model_cd>
+              <drone_ownership_operation_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</drone_ownership_operation_cd>
+              <drone_primary_location_type_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</drone_primary_location_type_cd>
+              <drone_aggregate_endorsement_liability_limit_cd>0</drone_aggregate_endorsement_liability_limit_cd>
+              <drone_primary_usage_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</drone_primary_usage_cd>
+              <drone_modifications_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</drone_modifications_cd>
+              <drone_pilot_certification_level_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</drone_pilot_certification_level_cd>
+              <drone_weight_cd>0</drone_weight_cd>
+              <drone_operation_hours_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</drone_operation_hours_cd>
+              <drone_operator_experience_years_cd>[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</drone_operator_experience_years_cd>
+              <drone_aggregate_endorsement_liability_limit_am>0</drone_aggregate_endorsement_liability_limit_am>
+            </statplan15>
+          </coverage>
+        </lobGL>
+      </lob>
+    </insured_risk_location>
+    <surplus_line_details>
+      <agent_nm>[ABPM_._ESCAPE_._CDATA_._START]LC[ABPM_._ESCAPE_._CDATA_._END]</agent_nm>
+      <license_no>[ABPM_._ESCAPE_._CDATA_._START]29J8303[ABPM_._ESCAPE_._CDATA_._END]</license_no>
+      <license_state_cd>2</license_state_cd>
+      <agent_address>
+        <country_cd>[ABPM_._ESCAPE_._CDATA_._START]USA[ABPM_._ESCAPE_._CDATA_._END]</country_cd>
+        <postal_cd>[ABPM_._ESCAPE_._CDATA_._START]16252-2224[ABPM_._ESCAPE_._CDATA_._END]</postal_cd>
+        <state_cd>[ABPM_._ESCAPE_._CDATA_._START]IL[ABPM_._ESCAPE_._CDATA_._END]</state_cd>
+        <city_nm>[ABPM_._ESCAPE_._CDATA_._START]Chicago[ABPM_._ESCAPE_._CDATA_._END]</city_nm>
+        <address_line_2_tx>[ABPM_._ESCAPE_._CDATA_._START]Suite 205[ABPM_._ESCAPE_._CDATA_._END]</address_line_2_tx>
+        <address_line_1_tx>[ABPM_._ESCAPE_._CDATA_._START]123 Main St[ABPM_._ESCAPE_._CDATA_._END]</address_line_1_tx>
+        <address_type_cd>[ABPM_._ESCAPE_._CDATA_._START]BLD[ABPM_._ESCAPE_._CDATA_._END]</address_type_cd>
+      </agent_address>
+      <phone_num>[ABPM_._ESCAPE_._CDATA_._START]111-222-3333[ABPM_._ESCAPE_._CDATA_._END]</phone_num>
+    </surplus_line_details>
+  </policy>
+</Root>]]></au_xsd>
+        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+    </AU_JSONSCHEMA>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_xsd" type="-1"/>
+        <column name="xsdFilePath" type="12"/>
+        <column name="au_encodingUsed" type="12"/>
+        <column name="AU_REUSABLE" type="3"/>
+        <column name="au_json" type="-1"/>
+        <column name="au_originalJson" type="-1"/>
+        <column name="au_jsonFilePath" type="12"/>
+        <column name="au_specialCharacters" type="-1"/>
+        <column name="au_removeLeadingZeros" type="3"/>
+        <column name="au_jsonType" type="4"/>
+        <column name="au_arrayFields" type="-1"/>
+        <column name="AU_VALIDATION" type="3"/>
+        <column name="AU_REFERENCE_IDENTIFIER_XPATH" type="12"/>
+        <column name="AU_RECORD_IDENTIFIER_XPATH" type="12"/>
+        <column name="AU_ERROR_PATH_LOCATION" type="12"/>
+        <column name="AU_JSON_SCHEMA_SPECIFICATION" type="3"/>
+        <column name="AU_OPTIMIZE_PROCESSING" type="3"/>
+        <column name="AU_QUEUE_CAPACITY" type="4"/>
+    </columnInfo>
+</data>
