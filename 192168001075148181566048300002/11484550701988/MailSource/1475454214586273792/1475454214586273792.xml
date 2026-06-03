@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_MAILSOURCE>
+        <au_bodyContentType><![CDATA[text/plain]]></au_bodyContentType>
+        <au_senderEmail><![CDATA[akash.giri@adeptia.com]]></au_senderEmail>
+        <au_userId><![CDATA[]]></au_userId>
+        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
+        <au_dataLocation><![CDATA[ATTACHMENT]]></au_dataLocation>
+        <au_id><![CDATA[1475454214586273792]]></au_id>
+        <au_leaveCopyOnServer><![CDATA[1]]></au_leaveCopyOnServer>
+        <au_fileName><![CDATA[Contact.xml]]></au_fileName>
+        <au_userOwner><![CDATA[IndigoUser:1508695319341551616]]></au_userOwner>
+        <au_cdoMachine><![CDATA[]]></au_cdoMachine>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_mailSubject><![CDATA[AG_Mail_Source_OAuth_IMAP_SSL]]></au_mailSubject>
+        <au_hostName><![CDATA[imap.gmail.com]]></au_hostName>
+        <au_description><![CDATA[AG_Mail_Source_OAuth_IMAP_SSL]]></au_description>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_protocol><![CDATA[imap]]></au_protocol>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
+        <au_authenticationType><![CDATA[OAuth 2.0]]></au_authenticationType>
+        <au_modifiedDate><![CDATA[2026-06-03T07:17:02]]></au_modifiedDate>
+        <au_entityName><![CDATA[AG_Mail_Source_OAuth_IMAP_SSL]]></au_entityName>
+        <au_mailContent><![CDATA[]]></au_mailContent>
+        <au_oauthAccountId><![CDATA[OAuthAccount:1476458300508094464]]></au_oauthAccountId>
+        <au_port><![CDATA[993]]></au_port>
+        <au_version><![CDATA[1]]></au_version>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_securityType><![CDATA[SSL]]></au_securityType>
+        <au_secure><![CDATA[0]]></au_secure>
+        <au_domain><![CDATA[]]></au_domain>
+        <AU_CONFIGMETADATA><![CDATA[]]></AU_CONFIGMETADATA>
+        <au_creationDate><![CDATA[2026-02-23T11:28:17]]></au_creationDate>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_accountId><![CDATA[null]]></au_accountId>
+        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_password><![CDATA[]]></au_password>
+    </AU_MAILSOURCE>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_persistDataEnabled" type="3"/>
+        <column name="au_userId" type="12"/>
+        <column name="au_fileName" type="12"/>
+        <column name="au_hostName" type="12"/>
+        <column name="au_domain" type="12"/>
+        <column name="au_cdoMachine" type="12"/>
+        <column name="au_senderEmail" type="12"/>
+        <column name="au_mailSubject" type="12"/>
+        <column name="au_port" type="4"/>
+        <column name="au_password" type="12"/>
+        <column name="au_secure" type="3"/>
+        <column name="au_leaveCopyOnServer" type="3"/>
+        <column name="au_dataLocation" type="12"/>
+        <column name="au_bodyContentType" type="12"/>
+        <column name="au_protocol" type="12"/>
+        <column name="au_mailContent" type="12"/>
+        <column name="au_encodingUsed" type="12"/>
+        <column name="au_securityType" type="12"/>
+        <column name="au_accountId" type="12"/>
+        <column name="au_authenticationType" type="12"/>
+        <column name="au_oauthAccountId" type="12"/>
+        <column name="AU_CONFIGMETADATA" type="12"/>
+    </columnInfo>
+</data>
