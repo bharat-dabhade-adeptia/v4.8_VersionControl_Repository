@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_AzureServiceBusListener>
+        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
+        <au_azureServiceBusAccount><![CDATA[1502005841105092608]]></au_azureServiceBusAccount>
+        <AU_ACTIVATEDBY><![CDATA[1501862811046752256]]></AU_ACTIVATEDBY>
+        <au_modifiedDate><![CDATA[2026-05-13T09:19:07]]></au_modifiedDate>
+        <au_sessionId><![CDATA[vaultsess1112]]></au_sessionId>
+        <au_creationDate><![CDATA[2026-04-22T03:57:58]]></au_creationDate>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_publishAs><![CDATA[processFlow]]></au_publishAs>
+        <au_entityName><![CDATA[bd_QABus_WithVault_AAD_Topic_ASB_Listener]]></au_entityName>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_metadata><![CDATA[{"processFlowId":"1491690473301024768"}]]></au_metadata>
+        <au_isActive><![CDATA[1]]></au_isActive>
+        <AU_MAXRETRIES><![CDATA[3]]></AU_MAXRETRIES>
+        <AU_DELAY><![CDATA[10]]></AU_DELAY>
+        <au_receiverEmailIds><![CDATA[null]]></au_receiverEmailIds>
+        <au_aggregationTimespan><![CDATA[60]]></au_aggregationTimespan>
+        <au_id><![CDATA[1496359387398455296]]></au_id>
+        <au_description><![CDATA[bd_QABus_WithVault_AAD_Topic_ASB_Listener]]></au_description>
+        <AU_MODE><![CDATA[null]]></AU_MODE>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_azureServiceBusType><![CDATA[Topic]]></au_azureServiceBusType>
+        <au_userOwner><![CDATA[IndigoUser:1508695319341551616]]></au_userOwner>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_queue><![CDATA[null]]></au_queue>
+        <AU_MAXCONCURRENTCALL><![CDATA[5]]></AU_MAXCONCURRENTCALL>
+        <au_messageJoiner><![CDATA[null]]></au_messageJoiner>
+        <au_previousVersion><![CDATA[null]]></au_previousVersion>
+        <AU_MAXDELAY><![CDATA[1]]></AU_MAXDELAY>
+        <au_subscriptionName><![CDATA[bd_sub_WithSession]]></au_subscriptionName>
+        <AU_PROCESSALLSESSIONS><![CDATA[0]]></AU_PROCESSALLSESSIONS>
+        <AU_MAXAUTOLOCKRENEWDURATION><![CDATA[5]]></AU_MAXAUTOLOCKRENEWDURATION>
+        <au_enableMessageAggregator><![CDATA[0]]></au_enableMessageAggregator>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_modifiedBy><![CDATA[IndigoUser:1508695319341551616]]></au_modifiedBy>
+        <au_sessionEnable><![CDATA[1]]></au_sessionEnable>
+        <au_messageTypes><![CDATA[plaintext]]></au_messageTypes>
+        <AU_TRYTIMEOUT><![CDATA[1]]></AU_TRYTIMEOUT>
+        <AU_SESSIONTIMEOUT><![CDATA[24]]></AU_SESSIONTIMEOUT>
+        <au_noOfMessageToAggregate><![CDATA[10]]></au_noOfMessageToAggregate>
+        <au_preFetchCount><![CDATA[0]]></au_preFetchCount>
+        <AU_MAXCONCURRENTSESSION><![CDATA[5]]></AU_MAXCONCURRENTSESSION>
+        <au_version><![CDATA[1]]></au_version>
+        <au_topic><![CDATA[bd_topic]]></au_topic>
+    </AU_AzureServiceBusListener>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_azureServiceBusAccount" type="12"/>
+        <column name="au_azureServiceBusType" type="12"/>
+        <column name="au_topic" type="12"/>
+        <column name="au_queue" type="12"/>
+        <column name="au_enableMessageAggregator" type="3"/>
+        <column name="au_messageTypes" type="12"/>
+        <column name="au_messageJoiner" type="12"/>
+        <column name="au_noOfMessageToAggregate" type="3"/>
+        <column name="au_aggregationTimespan" type="3"/>
+        <column name="au_preFetchCount" type="4"/>
+        <column name="au_subscriptionName" type="12"/>
+        <column name="au_receiverEmailIds" type="12"/>
+        <column name="au_publishAs" type="12"/>
+        <column name="au_sessionId" type="12"/>
+        <column name="au_sessionEnable" type="3"/>
+        <column name="au_metadata" type="-1"/>
+        <column name="au_isActive" type="3"/>
+        <column name="AU_PROCESSALLSESSIONS" type="3"/>
+        <column name="AU_MAXCONCURRENTCALL" type="4"/>
+        <column name="AU_MAXCONCURRENTSESSION" type="4"/>
+        <column name="AU_MAXAUTOLOCKRENEWDURATION" type="4"/>
+        <column name="AU_DELAY" type="4"/>
+        <column name="AU_MAXDELAY" type="4"/>
+        <column name="AU_MAXRETRIES" type="4"/>
+        <column name="AU_TRYTIMEOUT" type="4"/>
+        <column name="AU_MODE" type="12"/>
+        <column name="AU_SESSIONTIMEOUT" type="3"/>
+        <column name="AU_ACTIVATEDBY" type="12"/>
+    </columnInfo>
+</data>
