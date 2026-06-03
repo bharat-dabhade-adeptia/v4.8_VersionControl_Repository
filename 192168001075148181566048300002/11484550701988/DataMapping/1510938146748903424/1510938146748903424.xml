@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_MAPPINGTRANSFORMATION>
+        <au_splitFile><![CDATA[0]]></au_splitFile>
+        <AU_MULTI_VALUED_MAP><![CDATA[<MultiValuedMap/>]]></AU_MULTI_VALUED_MAP>
+        <au_parallelProcessing><![CDATA[0]]></au_parallelProcessing>
+        <au_dbInfoName><![CDATA[]]></au_dbInfoName>
+        <au_metadata><![CDATA[]]></au_metadata>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_sourceSchema><![CDATA[TextSchema:1510937669214810112;XMLSchema:1510356854869209088]]></au_sourceSchema>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_description><![CDATA[KGMap_MultipleSourceTarget]]></au_description>
+        <au_aimapTrained><![CDATA[0]]></au_aimapTrained>
+        <au_xslFile><![CDATA[<?xml version='1.0'?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.1" xmlns:saxonJavaMappingTransformation="java:com.adeptia.indigo.services.mapping.MappingTransformation" xmlns:saxonJavaMapperQueryExecutor="java:com.adeptia.indigo.services.mapping.support.dbquery.MapperQueryExecutor" xmlns:saxonJavaAggregateFunctionHandler="java:com.adeptia.indigo.services.mapping.AggregateFunctionHandler"  xmlns:str="http://exslt.org/strings" exclude-result-prefixes="saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str" xmlns:saxon="http://saxon.sf.net/" extension-element-prefixes="saxon">
+<xsl:output method="xml" version="1.0" encoding="UTF-8" cdata-section-elements="" indent="yes" /><xsl:param name="_userName"/><xsl:param name="_password"/><xsl:param name="_class"/><xsl:param name="_identifier"/><xsl:param name="_subject"/><xsl:param name="_repositoryPath"/><xsl:param name="_Input1"/><xsl:param name="_Input2"/><xsl:variable name="Input_KG_TextLayout" select="saxonJavaMappingTransformation:decryptInput($_class ,$_Input1)"/><xsl:variable name="Input_KG_XMLfile" select="saxonJavaMappingTransformation:decryptInput($_class ,$_Input2)"/> <xsl:variable name="varConn" select="saxonJavaMapperQueryExecutor:getInstance($_identifier,'false')"/> <xsl:variable name="apos">'</xsl:variable> <xsl:variable name="quot">"</xsl:variable><xsl:template match="/"><Root><xsl:apply-templates select="$Input_KG_TextLayout/Root/Record" mode="_Root_Record_order1">
+</xsl:apply-templates></Root><xsl:result-document href="{$_repositoryPath}/output_2"><Order><Vendor><xsl:value-of select="$Input_KG_XMLfile/Order/Vendor"/></Vendor><OrderNumber><xsl:value-of select="$Input_KG_XMLfile/Order/OrderNumber"/></OrderNumber>
+<!--PreCustom XSL starting for element Ship_To--><xsl:message>
+    second layout before
+    </xsl:message>
+<!--PreCustom XSL ending for element Ship_To--><Ship_To><xsl:value-of select="$Input_KG_XMLfile/Order/Ship_To"/></Ship_To>
+<!--PostCustom XSL starting for element Ship_To--><xsl:message>
+    second layout after
+    </xsl:message>
+<!--PostCustom XSL ending for element Ship_To--><Attention><xsl:value-of select="$Input_KG_XMLfile/Order/Attention"/></Attention><ShipAddr1><xsl:value-of select="$Input_KG_XMLfile/Order/ShipAddr1"/></ShipAddr1><ShipAddr2><xsl:value-of select="&apos;ss&apos;"/></ShipAddr2><Ship_State><xsl:value-of select="$Input_KG_XMLfile/Order/Ship_State"/></Ship_State><Ship_Zip><xsl:value-of select="$Input_KG_XMLfile/Order/Ship_Zip"/></Ship_Zip><Ship_Country><xsl:value-of select="$Input_KG_XMLfile/Order/Ship_Country"/></Ship_Country><Quantity><xsl:value-of select="$Input_KG_XMLfile/Order/Quantity"/></Quantity><Item_Code><xsl:value-of select="$Input_KG_XMLfile/Order/Item_Code"/></Item_Code><Part_Number><xsl:value-of select="$Input_KG_XMLfile/Order/Part_Number"/></Part_Number><Description><xsl:value-of select="$Input_KG_XMLfile/Order/Description"/></Description><Unit_Price><xsl:value-of select="$Input_KG_XMLfile/Order/Unit_Price"/></Unit_Price><UoM><xsl:value-of select="$Input_KG_XMLfile/Order/UoM"/></UoM><SubTotal><xsl:value-of select="$Input_KG_XMLfile/Order/SubTotal"/></SubTotal></Order></xsl:result-document><xsl:value-of select="globalmethod:processMultipleTargetSaxon($_class,$_repositoryPath,'output_2')" xmlns:globalmethod= "java:com.adeptia.indigo.services.mapping.MultipleTargetSaxon" /></xsl:template><xsl:template match="/Root/Record" mode="_Root_Record_order1">
+<Record><xsl:attribute name="recordNumber"><xsl:value-of select="./@recordNumber"/></xsl:attribute>
+<!--PreCustom XSL starting for element Name--><xsl:message>
+    first layout before
+    </xsl:message>
+<!--PreCustom XSL ending for element Name--><Name><xsl:value-of select="Name"/></Name><Age><xsl:value-of select="Age"/></Age><Company><xsl:value-of select="Company"/></Company>
+<!--PostCustom XSL starting for element Company--><xsl:message>
+    first layout after
+    </xsl:message>
+<!--PostCustom XSL ending for element Company--><L_Name><xsl:value-of select="L_Name"/></L_Name><M_name><xsl:value-of select="M_name"/></M_name><Address><xsl:value-of select="Address"/></Address><Emp_id><xsl:value-of select="Emp_id"/></Emp_id><Dept><xsl:value-of select="Dept"/></Dept><Salary><xsl:value-of select="Salary"/></Salary><Dept_id><xsl:value-of select="Dept_id"/></Dept_id><City><xsl:value-of select="City"/></City></Record></xsl:template></xsl:stylesheet>]]></au_xslFile>
+        <au_concurrentProcessors><![CDATA[1]]></au_concurrentProcessors>
+        <au_enableAIMap><![CDATA[0]]></au_enableAIMap>
+        <au_valueMap><![CDATA[<ValueMap/>]]></au_valueMap>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
+        <au_mapXmlFile><![CDATA[<?xml version="1.0" encoding="UTF-8"?><maps version="4.4">
+<mappingInformation>
+    <mappingVersion>6.1</mappingVersion>
+    <mappingName>KGMap_MultipleSourceTarget</mappingName>
+    <mappingProject>Project:11484550701988</mappingProject>
+    <mappingDescription>KGMap_MultipleSourceTarget</mappingDescription>
+    <sourceSchemaID>TextSchema:1510937669214810112;XMLSchema:1510356854869209088</sourceSchemaID>
+    <targetSchemaID>TextSchema:1510937669214810112;XMLSchema:1510356854869209088</targetSchemaID>
+    <mappingOwnerGroup>Group_1</mappingOwnerGroup>
+    <mappingOwner>Krati Gupta</mappingOwner>
+    <mappingLastModifiedBy>Krati Gupta</mappingLastModifiedBy>
+    <mappingCreationDate>Mon Jun 01 09:28:46 GMT 2026</mappingCreationDate>
+    <mappingModifiedDate>Mon Jun 01 19:22:44 GMT 2026</mappingModifiedDate>
+    <reusable>true</reusable>
+</mappingInformation>
+<sourceRoots>
+    <sourceRoot>
+        <name>Root</name>
+        <schemaName>KG_TextLayout</schemaName>
+        <schemaID>TextSchema:1510937669214810112;XMLSchema:1510356854869209088</schemaID>
+    </sourceRoot>
+    <sourceRoot>
+        <name>Order</name>
+        <schemaName>KG_XMLfile</schemaName>
+        <schemaID>TextSchema:1510937669214810112;XMLSchema:1510356854869209088</schemaID>
+    </sourceRoot>
+</sourceRoots>
+<targetRoots>
+    <targetRoot>
+        <name>Root</name>
+        <schemaName>KG_TextLayout</schemaName>
+        <schemaID>TextSchema:1510937669214810112;XMLSchema:1510356854869209088</schemaID>
+        <stream>output_1</stream>
+    </targetRoot>
+    <targetRoot>
+        <name>Order</name>
+        <schemaName>KG_XMLfile</schemaName>
+        <schemaID>TextSchema:1510937669214810112;XMLSchema:1510356854869209088</schemaID>
+        <stream>output_2</stream>
+    </targetRoot>
+</targetRoots>
+<nameSpace/>
+<xslProperty/>
+<GlobalPreCustomXSL/>
+<GlobalPostCustomXSL/>
+<xslTemplates/>
+<map>
+<order>1</order>
+ <targetName>KG_TextLayout</targetName>
+<dest>/Root/Record</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_KG_TextLayout/Root/Record</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Record">
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_TextLayout/Root/Record" mapString="&lt;S&gt;$Input_KG_TextLayout/Root/Record" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record" mapString="$Input_KG_TextLayout/Root/Record" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>KG_TextLayout</targetName>
+<dest>/Root/Record/L_Name</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_KG_TextLayout/Root/Record/L_Name</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="L_Name">
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_TextLayout/Root/Record/L_Name" mapString="&lt;S&gt;$Input_KG_TextLayout/Root/Record/L_Name" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/L_Name" mapString="$Input_KG_TextLayout/Root/Record/L_Name" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>KG_TextLayout</targetName>
+<dest>/Root/Record/M_name</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_KG_TextLayout/Root/Record/M_name</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="M_name">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/M_name" mapString="$Input_KG_TextLayout/Root/Record/M_name" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_TextLayout/Root/Record/M_name" mapString="&lt;S&gt;$Input_KG_TextLayout/Root/Record/M_name" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>KG_TextLayout</targetName>
+<dest>/Root/Record/Address</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_KG_TextLayout/Root/Record/Address</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Address">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/Address" mapString="$Input_KG_TextLayout/Root/Record/Address" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_TextLayout/Root/Record/Address" mapString="&lt;S&gt;$Input_KG_TextLayout/Root/Record/Address" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>KG_TextLayout</targetName>
+<dest>/Root/Record/Emp_id</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_KG_TextLayout/Root/Record/Emp_id</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Emp_id">
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_TextLayout/Root/Record/Emp_id" mapString="&lt;S&gt;$Input_KG_TextLayout/Root/Record/Emp_id" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/Emp_id" mapString="$Input_KG_TextLayout/Root/Record/Emp_id" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>KG_TextLayout</targetName>
+<dest>/Root/Record/Dept</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_KG_TextLayout/Root/Record/Dept</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Dept">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/Dept" mapString="$Input_KG_TextLayout/Root/Record/Dept" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_TextLayout/Root/Record/Dept" mapString="&lt;S&gt;$Input_KG_TextLayout/Root/Record/Dept" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>KG_TextLayout</targetName>
+<dest>/Root/Record/Salary</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_KG_TextLayout/Root/Record/Salary</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Salary">
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_TextLayout/Root/Record/Salary" mapString="&lt;S&gt;$Input_KG_TextLayout/Root/Record/Salary" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/Salary" mapString="$Input_KG_TextLayout/Root/Record/Salary" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>KG_TextLayout</targetName>
+<dest>/Root/Record/Dept_id</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_KG_TextLayout/Root/Record/Dept_id</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Dept_id">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/Dept_id" mapString="$Input_KG_TextLayout/Root/Record/Dept_id" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_TextLayout/Root/Record/Dept_id" mapString="&lt;S&gt;$Input_KG_TextLayout/Root/Record/Dept_id" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>KG_TextLayout</targetName>
+<dest>/Root/Record/City</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_KG_TextLayout/Root/Record/City</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="City">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/City" mapString="$Input_KG_TextLayout/Root/Record/City" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_TextLayout/Root/Record/City" mapString="&lt;S&gt;$Input_KG_TextLayout/Root/Record/City" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>KG_TextLayout</targetName>
+<dest>/Root/Record/@recordNumber</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_KG_TextLayout/Root/Record/@recordNumber</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="@recordNumber">
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_TextLayout/Root/Record/@recordNumber" mapString="&lt;S&gt;$Input_KG_TextLayout/Root/Record/@recordNumber" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/@recordNumber" mapString="$Input_KG_TextLayout/Root/Record/@recordNumber" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>2</order>
+ <targetName>KG_XMLfile</targetName>
+<dest>/Order/Vendor</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_KG_XMLfile/Order/Vendor</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Vendor">
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_XMLfile/Order/Vendor" mapString="&lt;S&gt;$Input_KG_XMLfile/Order/Vendor" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Order/Vendor" mapString="$Input_KG_XMLfile/Order/Vendor" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>2</order>
+ <targetName>KG_XMLfile</targetName>
+<dest>/Order/OrderNumber</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_KG_XMLfile/Order/OrderNumber</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="OrderNumber">
+<Position height="25" identify="&lt;T&gt;" label="/Order/OrderNumber" mapString="$Input_KG_XMLfile/Order/OrderNumber" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_XMLfile/Order/OrderNumber" mapString="&lt;S&gt;$Input_KG_XMLfile/Order/OrderNumber" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>2</order>
+ <targetName>KG_XMLfile</targetName>
+<dest>/Order/Attention</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_KG_XMLfile/Order/Attention</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Attention">
+<Position height="25" identify="&lt;T&gt;" label="/Order/Attention" mapString="$Input_KG_XMLfile/Order/Attention" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_XMLfile/Order/Attention" mapString="&lt;S&gt;$Input_KG_XMLfile/Order/Attention" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>2</order>
+ <targetName>KG_XMLfile</targetName>
+<dest>/Order/ShipAddr1</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_KG_XMLfile/Order/ShipAddr1</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="ShipAddr1">
+<Position height="25" identify="&lt;T&gt;" label="/Order/ShipAddr1" mapString="$Input_KG_XMLfile/Order/ShipAddr1" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_XMLfile/Order/ShipAddr1" mapString="&lt;S&gt;$Input_KG_XMLfile/Order/ShipAddr1" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>2</order>
+ <targetName>KG_XMLfile</targetName>
+<dest>/Order/Ship_State</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_KG_XMLfile/Order/Ship_State</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Ship_State">
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_XMLfile/Order/Ship_State" mapString="&lt;S&gt;$Input_KG_XMLfile/Order/Ship_State" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Order/Ship_State" mapString="$Input_KG_XMLfile/Order/Ship_State" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>2</order>
+ <targetName>KG_XMLfile</targetName>
+<dest>/Order/Ship_Zip</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_KG_XMLfile/Order/Ship_Zip</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Ship_Zip">
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_XMLfile/Order/Ship_Zip" mapString="&lt;S&gt;$Input_KG_XMLfile/Order/Ship_Zip" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Order/Ship_Zip" mapString="$Input_KG_XMLfile/Order/Ship_Zip" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>2</order>
+ <targetName>KG_XMLfile</targetName>
+<dest>/Order/Ship_Country</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_KG_XMLfile/Order/Ship_Country</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Ship_Country">
+<Position height="25" identify="&lt;T&gt;" label="/Order/Ship_Country" mapString="$Input_KG_XMLfile/Order/Ship_Country" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_XMLfile/Order/Ship_Country" mapString="&lt;S&gt;$Input_KG_XMLfile/Order/Ship_Country" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>2</order>
+ <targetName>KG_XMLfile</targetName>
+<dest>/Order/Quantity</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_KG_XMLfile/Order/Quantity</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Quantity">
+<Position height="25" identify="&lt;T&gt;" label="/Order/Quantity" mapString="$Input_KG_XMLfile/Order/Quantity" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_XMLfile/Order/Quantity" mapString="&lt;S&gt;$Input_KG_XMLfile/Order/Quantity" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>2</order>
+ <targetName>KG_XMLfile</targetName>
+<dest>/Order/Item_Code</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_KG_XMLfile/Order/Item_Code</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Item_Code">
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_XMLfile/Order/Item_Code" mapString="&lt;S&gt;$Input_KG_XMLfile/Order/Item_Code" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Order/Item_Code" mapString="$Input_KG_XMLfile/Order/Item_Code" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>2</order>
+ <targetName>KG_XMLfile</targetName>
+<dest>/Order/Part_Number</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_KG_XMLfile/Order/Part_Number</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Part_Number">
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_XMLfile/Order/Part_Number" mapString="&lt;S&gt;$Input_KG_XMLfile/Order/Part_Number" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Order/Part_Number" mapString="$Input_KG_XMLfile/Order/Part_Number" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>2</order>
+ <targetName>KG_XMLfile</targetName>
+<dest>/Order/Description</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_KG_XMLfile/Order/Description</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Description">
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_XMLfile/Order/Description" mapString="&lt;S&gt;$Input_KG_XMLfile/Order/Description" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Order/Description" mapString="$Input_KG_XMLfile/Order/Description" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>2</order>
+ <targetName>KG_XMLfile</targetName>
+<dest>/Order/Unit_Price</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_KG_XMLfile/Order/Unit_Price</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Unit_Price">
+<Position height="25" identify="&lt;T&gt;" label="/Order/Unit_Price" mapString="$Input_KG_XMLfile/Order/Unit_Price" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_XMLfile/Order/Unit_Price" mapString="&lt;S&gt;$Input_KG_XMLfile/Order/Unit_Price" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>2</order>
+ <targetName>KG_XMLfile</targetName>
+<dest>/Order/UoM</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_KG_XMLfile/Order/UoM</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="UoM">
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_XMLfile/Order/UoM" mapString="&lt;S&gt;$Input_KG_XMLfile/Order/UoM" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Order/UoM" mapString="$Input_KG_XMLfile/Order/UoM" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>2</order>
+ <targetName>KG_XMLfile</targetName>
+<dest>/Order/SubTotal</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_KG_XMLfile/Order/SubTotal</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="SubTotal">
+<Position height="25" identify="&lt;T&gt;" label="/Order/SubTotal" mapString="$Input_KG_XMLfile/Order/SubTotal" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_XMLfile/Order/SubTotal" mapString="&lt;S&gt;$Input_KG_XMLfile/Order/SubTotal" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>KG_TextLayout</targetName>
+<dest>/Root/Record/Name</dest>
+<preCustomXSL>&lt;xsl:message&gt;
+    first layout before
+    &lt;/xsl:message&gt;</preCustomXSL>
+<postCustomXSL/>
+ <mapValue>$Input_KG_TextLayout/Root/Record/Name</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Name">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/Name" mapString="$Input_KG_TextLayout/Root/Record/Name" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_TextLayout/Root/Record/Name" mapString="&lt;S&gt;$Input_KG_TextLayout/Root/Record/Name" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>KG_TextLayout</targetName>
+<dest>/Root/Record/Company</dest>
+<preCustomXSL/>
+<postCustomXSL>&lt;xsl:message&gt;
+    first layout after
+    &lt;/xsl:message&gt;</postCustomXSL>
+ <mapValue>$Input_KG_TextLayout/Root/Record/Company</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Company">
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_TextLayout/Root/Record/Company" mapString="&lt;S&gt;$Input_KG_TextLayout/Root/Record/Company" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/Company" mapString="$Input_KG_TextLayout/Root/Record/Company" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>2</order>
+ <targetName>KG_XMLfile</targetName>
+<dest>/Order/Ship_To</dest>
+<preCustomXSL>&lt;xsl:message&gt;
+    second layout before
+    &lt;/xsl:message&gt;</preCustomXSL>
+<postCustomXSL>&lt;xsl:message&gt;
+    second layout after
+    &lt;/xsl:message&gt;</postCustomXSL>
+ <mapValue>$Input_KG_XMLfile/Order/Ship_To</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Ship_To">
+<Position height="25" identify="&lt;T&gt;" label="/Order/Ship_To" mapString="$Input_KG_XMLfile/Order/Ship_To" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_KG_XMLfile/Order/Ship_To" mapString="&lt;S&gt;$Input_KG_XMLfile/Order/Ship_To" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>KG_TextLayout</targetName>
+<dest>/Root/Record/Age</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_KG_TextLayout/Root/Record/Age</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Age">
+      <Position height="25" identify="&lt;T&gt;" label="//Root/Record/Age" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<map>
+<order>2</order>
+ <targetName>KG_XMLfile</targetName>
+<dest>/Order/ShipAddr2</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>'ss'</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="ShipAddr2">
+      <Position height="25" identify="&lt;T&gt;" label="//Order/ShipAddr2" mapString="" x="300" y="10">
+          <SourceLines/>
+          <TargetLines/>
+     </Position>
+</Target>
+<defaultEditor>textual</defaultEditor>
+ </map>
+<variables>
+</variables>
+
+<globalParameters>
+<keys>
+</keys>
+<contextVariables>
+</contextVariables>
+</globalParameters>
+
+<connections/>
+<functions>
+</functions>
+<disableOutputNodes>
+</disableOutputNodes>
+<filters/>
+    <valuemapNodes/>
+<accessLevel>
+<valueMap>global</valueMap>
+        <globalTemplate>global</globalTemplate>
+        <customAutoMap>global</customAutoMap>
+</accessLevel>
+<DataViewerRecordCount>50</DataViewerRecordCount>
+<isQuickSplittingEnabled>false</isQuickSplittingEnabled>
+<sourceExtensions/>
+<targetExtensions/>
+<disableOutputNodes/>
+<characterSetEncoding>UTF-8</characterSetEncoding>
+<tipOfTheDay>true</tipOfTheDay>
+<contextSchemaLoadedAtSource>false</contextSchemaLoadedAtSource>
+<contextSchemaLoadedAtTarget>false</contextSchemaLoadedAtTarget>
+<contextSchemaDefinition/>
+<filterUnmappedElement>false</filterUnmappedElement>
+<indentOutputXML>true</indentOutputXML>
+    <streamingMode>false</streamingMode>
+    <filterEmptyElements>false</filterEmptyElements>
+    <dbQueryCaching>false</dbQueryCaching>
+<cacheIncludedSchemas>false</cacheIncludedSchemas>
+<TreeExpandLevelCount>3</TreeExpandLevelCount>
+<TreeExpandLevelCountForWebService>5</TreeExpandLevelCountForWebService>
+<TreeExpandLevelForEasySchemaExtensions>10</TreeExpandLevelForEasySchemaExtensions>
+    <SelfRecursionLevel>0</SelfRecursionLevel>
+    <EnableTypesBuffering>true</EnableTypesBuffering>
+    <CdataSectionElements/>
+<excludeResultPrefixes> saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str</excludeResultPrefixes>
+<webservice>
+    <consumers/>
+</webservice>
+
+<CustomAutoMapInUse/>
+<processElementFormDefault>true</processElementFormDefault>
+<xslVersion2.0>false</xslVersion2.0>
+<xslVersion3.0>false</xslVersion3.0>
+<sourceXpath/>
+<targetXpath/>
+</maps>
+]]></au_mapXmlFile>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_modifiedBy><![CDATA[IndigoUser:1510352748725284864]]></au_modifiedBy>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_xslTemplate><![CDATA[<XslTemplate/>]]></au_xslTemplate>
+        <au_targetSchema><![CDATA[TextSchema:1510937669214810112;XMLSchema:1510356854869209088]]></au_targetSchema>
+        <au_numberOfRecords><![CDATA[500]]></au_numberOfRecords>
+        <au_characterSetEncoding><![CDATA[UTF-8]]></au_characterSetEncoding>
+        <au_entityName><![CDATA[KGMap_MultipleSourceTarget]]></au_entityName>
+        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
+        <au_version><![CDATA[1]]></au_version>
+        <au_optimizedLoading><![CDATA[1]]></au_optimizedLoading>
+        <au_xslTransformer><![CDATA[Saxon]]></au_xslTransformer>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_storedProcedure><![CDATA[]]></au_storedProcedure>
+        <au_id><![CDATA[1510938146748903424]]></au_id>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_json><![CDATA[{"json":{"category":"mapping","type":"mapping","encoding":"UTF-8","version":"1.0"},"cloneElements":"","filters":"","variables":{"variable":[]},"globalParameters":{"keys":{"key":[]},"contextVariables":{"contextVariable":[]}},"connections":{"connectionVariable":[]},"functions":{"externalFunction":[]},"filterUnmappedElements":false,"indentOutputXML":true,"xslVersion":"1.1","enableStreaming":false,"filterEmptyElements":false,"xslTransformer":"Saxon","characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":5,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":true,"settingConfigs":{"xslVersion":"1.1","xslTransformer":"Saxon","filterUnmappedElements":false,"indentOutputXML":true,"filterEmptyElements":false,"enableStreaming":false,"characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":5,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":true,"cDataSectionElements":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"processElementFormDefault":true,"isAutoSaveEnable":true},"disableOuputNodes":{"disableOutputNodeProperty":[]},"isCustomXSLT":false,"contextSchemaLoadedAtSource":false,"contextSchemaLoadedAtTarget":false,"webservice":{"consumers":{"consumer":[]}},"GlobalPreCustomXSL":"","GlobalPostCustomXSL":"","xslTemplates":{"xslTemplateData":[]},"mappingTempId":1780338110889,"sourceXpath":"","targetXpath":"","connectorInfo":{},"cDataSectionElements":"","splittingData":false,"splitNumberOfRecords":"500","parallelProcessing":false,"maximumConcurrentProcessor":"1","CustomAutoMapInUse":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"metaData":"","processElementFormDefault":true,"mappingInformation":{"mappingVersion":"6.1","mappingName":"KGMap_MultipleSourceTarget","mappingProject":"Project:11484550701988","mappingDescription":"KGMap_MultipleSourceTarget","sourceSchemaID":"TextSchema:1510937669214810112;XMLSchema:1510356854869209088","targetSchemaID":"TextSchema:1510937669214810112;XMLSchema:1510356854869209088","mappingOwnerGroup":"","mappingOwner":"","mappingLastModifiedBy":"","mappingCreationDate":"","mappingModifiedDate":"","reusable":true},"namespace":"","namespaceList":[],"foreach":"","targetRoots":{"targetRoot":[{"name":"Root","schemaName":"KG_TextLayout","schemaID":"TextSchema:1510937669214810112;XMLSchema:1510356854869209088","stream":"output_1"},{"name":"Order","schemaName":"KG_XMLfile","schemaID":"TextSchema:1510937669214810112;XMLSchema:1510356854869209088","stream":"output_2"}]},"sourceRoots":{"sourceRoot":[{"name":"Root","schemaName":"KG_TextLayout","schemaID":"TextSchema:1510937669214810112;XMLSchema:1510356854869209088"},{"name":"Order","schemaName":"KG_XMLfile","schemaID":"TextSchema:1510937669214810112;XMLSchema:1510356854869209088"}]},"contextSchemaDefinition":"","maps":[{"order":1,"targetName":"KG_TextLayout","targetfield":"Record","targetfieldpath":"/Root/Record","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1780306106647","elementItem":{"elementType":"SourceElement","name":"Record","expression":"$Input_KG_TextLayout/Root/Record","paramsCount":0,"syntax":"$Input_KG_TextLayout/Root/Record"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1780306106648_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1780306106648"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1780306106648","elementItem":{"elementType":"TargetElement","name":"Record","expression":"$Input_KG_TextLayout/Root/Record","paramsCount":1,"syntax":"KG_TextLayout/Root/Record"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1780306106647"]}],"expression":"$Input_KG_TextLayout/Root/Record","targetrecord":"Root","mapping":[{"sourceName":"KG_TextLayout","operatortype":"field","sourcefield":"Record","sourcefielddisplayname":"Record","sourcefieldpath":"/Root/Record","sourcerecord":"Root","id":"Mapping-1"}],"markComplete":false,"mapId":"KG_TextLayout/Root/Record","expressionNote":"","expressionPath":"$Input_KG_TextLayout/Root/Record"},{"order":1,"targetName":"KG_TextLayout","targetfield":"L_Name","targetfieldpath":"/Root/Record/L_Name","targetrecord":"Record","mapping":[{"sourceName":"KG_TextLayout","operatortype":"field","sourcefield":"L_Name","sourcefielddisplayname":"L_Name","sourcefieldpath":"/Root/Record/L_Name","sourcerecord":"Record","id":"Mapping-5"}],"markComplete":false,"mapId":"KG_TextLayout/Root/Record/L_Name","expressionNote":"","expression":"$Input_KG_TextLayout/Root/Record/L_Name","expressionPath":"$Input_KG_TextLayout/Root/Record/L_Name","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1780306106654","elementItem":{"elementType":"SourceElement","name":"L_Name","expression":"$Input_KG_TextLayout/Root/Record/L_Name","paramsCount":0,"syntax":"$Input_KG_TextLayout/Root/Record/L_Name"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1780306106655_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1780306106655"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1780306106655","elementItem":{"elementType":"TargetElement","name":"L_Name","expression":"$Input_KG_TextLayout/Root/Record/L_Name","paramsCount":1,"syntax":"KG_TextLayout/Root/Record/L_Name"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1780306106654"]}]},{"order":1,"targetName":"KG_TextLayout","targetfield":"M_name","targetfieldpath":"/Root/Record/M_name","targetrecord":"Record","mapping":[{"sourceName":"KG_TextLayout","operatortype":"field","sourcefield":"M_name","sourcefielddisplayname":"M_name","sourcefieldpath":"/Root/Record/M_name","sourcerecord":"Record","id":"Mapping-6"}],"markComplete":false,"mapId":"KG_TextLayout/Root/Record/M_name","expressionNote":"","expression":"$Input_KG_TextLayout/Root/Record/M_name","expressionPath":"$Input_KG_TextLayout/Root/Record/M_name","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1780306106655","elementItem":{"elementType":"SourceElement","name":"M_name","expression":"$Input_KG_TextLayout/Root/Record/M_name","paramsCount":0,"syntax":"$Input_KG_TextLayout/Root/Record/M_name"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1780306106656_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1780306106656"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1780306106656","elementItem":{"elementType":"TargetElement","name":"M_name","expression":"$Input_KG_TextLayout/Root/Record/M_name","paramsCount":1,"syntax":"KG_TextLayout/Root/Record/M_name"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1780306106655"]}]},{"order":1,"targetName":"KG_TextLayout","targetfield":"Address","targetfieldpath":"/Root/Record/Address","targetrecord":"Record","mapping":[{"sourceName":"KG_TextLayout","operatortype":"field","sourcefield":"Address","sourcefielddisplayname":"Address","sourcefieldpath":"/Root/Record/Address","sourcerecord":"Record","id":"Mapping-7"}],"markComplete":false,"mapId":"KG_TextLayout/Root/Record/Address","expressionNote":"","expression":"$Input_KG_TextLayout/Root/Record/Address","expressionPath":"$Input_KG_TextLayout/Root/Record/Address","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1780306106657","elementItem":{"elementType":"SourceElement","name":"Address","expression":"$Input_KG_TextLayout/Root/Record/Address","paramsCount":0,"syntax":"$Input_KG_TextLayout/Root/Record/Address"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1780306106658_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1780306106658"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1780306106658","elementItem":{"elementType":"TargetElement","name":"Address","expression":"$Input_KG_TextLayout/Root/Record/Address","paramsCount":1,"syntax":"KG_TextLayout/Root/Record/Address"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1780306106657"]}]},{"order":1,"targetName":"KG_TextLayout","targetfield":"Emp_id","targetfieldpath":"/Root/Record/Emp_id","targetrecord":"Record","mapping":[{"sourceName":"KG_TextLayout","operatortype":"field","sourcefield":"Emp_id","sourcefielddisplayname":"Emp_id","sourcefieldpath":"/Root/Record/Emp_id","sourcerecord":"Record","id":"Mapping-8"}],"markComplete":false,"mapId":"KG_TextLayout/Root/Record/Emp_id","expressionNote":"","expression":"$Input_KG_TextLayout/Root/Record/Emp_id","expressionPath":"$Input_KG_TextLayout/Root/Record/Emp_id","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1780306106658","elementItem":{"elementType":"SourceElement","name":"Emp_id","expression":"$Input_KG_TextLayout/Root/Record/Emp_id","paramsCount":0,"syntax":"$Input_KG_TextLayout/Root/Record/Emp_id"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1780306106659_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1780306106659"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1780306106659","elementItem":{"elementType":"TargetElement","name":"Emp_id","expression":"$Input_KG_TextLayout/Root/Record/Emp_id","paramsCount":1,"syntax":"KG_TextLayout/Root/Record/Emp_id"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1780306106658"]}]},{"order":1,"targetName":"KG_TextLayout","targetfield":"Dept","targetfieldpath":"/Root/Record/Dept","targetrecord":"Record","mapping":[{"sourceName":"KG_TextLayout","operatortype":"field","sourcefield":"Dept","sourcefielddisplayname":"Dept","sourcefieldpath":"/Root/Record/Dept","sourcerecord":"Record","id":"Mapping-9"}],"markComplete":false,"mapId":"KG_TextLayout/Root/Record/Dept","expressionNote":"","expression":"$Input_KG_TextLayout/Root/Record/Dept","expressionPath":"$Input_KG_TextLayout/Root/Record/Dept","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1780306106659","elementItem":{"elementType":"SourceElement","name":"Dept","expression":"$Input_KG_TextLayout/Root/Record/Dept","paramsCount":0,"syntax":"$Input_KG_TextLayout/Root/Record/Dept"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1780306106660_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1780306106660"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1780306106660","elementItem":{"elementType":"TargetElement","name":"Dept","expression":"$Input_KG_TextLayout/Root/Record/Dept","paramsCount":1,"syntax":"KG_TextLayout/Root/Record/Dept"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1780306106659"]}]},{"order":1,"targetName":"KG_TextLayout","targetfield":"Salary","targetfieldpath":"/Root/Record/Salary","targetrecord":"Record","mapping":[{"sourceName":"KG_TextLayout","operatortype":"field","sourcefield":"Salary","sourcefielddisplayname":"Salary","sourcefieldpath":"/Root/Record/Salary","sourcerecord":"Record","id":"Mapping-10"}],"markComplete":false,"mapId":"KG_TextLayout/Root/Record/Salary","expressionNote":"","expression":"$Input_KG_TextLayout/Root/Record/Salary","expressionPath":"$Input_KG_TextLayout/Root/Record/Salary","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1780306106661","elementItem":{"elementType":"SourceElement","name":"Salary","expression":"$Input_KG_TextLayout/Root/Record/Salary","paramsCount":0,"syntax":"$Input_KG_TextLayout/Root/Record/Salary"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1780306106662_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1780306106662"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1780306106662","elementItem":{"elementType":"TargetElement","name":"Salary","expression":"$Input_KG_TextLayout/Root/Record/Salary","paramsCount":1,"syntax":"KG_TextLayout/Root/Record/Salary"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1780306106661"]}]},{"order":1,"targetName":"KG_TextLayout","targetfield":"Dept_id","targetfieldpath":"/Root/Record/Dept_id","targetrecord":"Record","mapping":[{"sourceName":"KG_TextLayout","operatortype":"field","sourcefield":"Dept_id","sourcefielddisplayname":"Dept_id","sourcefieldpath":"/Root/Record/Dept_id","sourcerecord":"Record","id":"Mapping-11"}],"markComplete":false,"mapId":"KG_TextLayout/Root/Record/Dept_id","expressionNote":"","expression":"$Input_KG_TextLayout/Root/Record/Dept_id","expressionPath":"$Input_KG_TextLayout/Root/Record/Dept_id","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1780306106662","elementItem":{"elementType":"SourceElement","name":"Dept_id","expression":"$Input_KG_TextLayout/Root/Record/Dept_id","paramsCount":0,"syntax":"$Input_KG_TextLayout/Root/Record/Dept_id"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1780306106663_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1780306106663"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1780306106663","elementItem":{"elementType":"TargetElement","name":"Dept_id","expression":"$Input_KG_TextLayout/Root/Record/Dept_id","paramsCount":1,"syntax":"KG_TextLayout/Root/Record/Dept_id"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1780306106662"]}]},{"order":1,"targetName":"KG_TextLayout","targetfield":"City","targetfieldpath":"/Root/Record/City","targetrecord":"Record","mapping":[{"sourceName":"KG_TextLayout","operatortype":"field","sourcefield":"City","sourcefielddisplayname":"City","sourcefieldpath":"/Root/Record/City","sourcerecord":"Record","id":"Mapping-12"}],"markComplete":false,"mapId":"KG_TextLayout/Root/Record/City","expressionNote":"","expression":"$Input_KG_TextLayout/Root/Record/City","expressionPath":"$Input_KG_TextLayout/Root/Record/City","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1780306106664","elementItem":{"elementType":"SourceElement","name":"City","expression":"$Input_KG_TextLayout/Root/Record/City","paramsCount":0,"syntax":"$Input_KG_TextLayout/Root/Record/City"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1780306106665_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1780306106665"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1780306106665","elementItem":{"elementType":"TargetElement","name":"City","expression":"$Input_KG_TextLayout/Root/Record/City","paramsCount":1,"syntax":"KG_TextLayout/Root/Record/City"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1780306106664"]}]},{"order":1,"targetName":"KG_TextLayout","targetfield":"@recordNumber","targetfieldpath":"/Root/Record/@recordNumber","targetrecord":"Record","mapping":[{"sourceName":"KG_TextLayout","operatortype":"field","sourcefield":"@recordNumber","sourcefielddisplayname":"@recordNumber","sourcefieldpath":"/Root/Record/@recordNumber","sourcerecord":"Record","id":"Mapping-13"}],"markComplete":false,"mapId":"KG_TextLayout/Root/Record/@recordNumber","expressionNote":"","expression":"$Input_KG_TextLayout/Root/Record/@recordNumber","expressionPath":"$Input_KG_TextLayout/Root/Record/@recordNumber","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1780306106665","elementItem":{"elementType":"SourceElement","name":"@recordNumber","expression":"$Input_KG_TextLayout/Root/Record/@recordNumber","paramsCount":0,"syntax":"$Input_KG_TextLayout/Root/Record/@recordNumber"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1780306106666_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1780306106666"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1780306106666","elementItem":{"elementType":"TargetElement","name":"@recordNumber","expression":"$Input_KG_TextLayout/Root/Record/@recordNumber","paramsCount":1,"syntax":"KG_TextLayout/Root/Record/@recordNumber"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1780306106665"]}]},{"order":2,"targetName":"KG_XMLfile","targetfield":"Vendor","targetfieldpath":"/Order/Vendor","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1780306110786","elementItem":{"elementType":"SourceElement","name":"Vendor","expression":"$Input_KG_XMLfile/Order/Vendor","paramsCount":0,"syntax":"$Input_KG_XMLfile/Order/Vendor"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1780306110788_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1780306110788"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1780306110788","elementItem":{"elementType":"TargetElement","name":"Vendor","expression":"$Input_KG_XMLfile/Order/Vendor","paramsCount":1,"syntax":"KG_XMLfile/Order/Vendor"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1780306110786"]}],"expression":"$Input_KG_XMLfile/Order/Vendor","targetrecord":"Order","mapping":[{"sourceName":"KG_XMLfile","operatortype":"field","sourcefield":"Vendor","sourcefielddisplayname":"Vendor","sourcefieldpath":"/Order/Vendor","sourcerecord":"Order","id":"Mapping-14"}],"markComplete":false,"mapId":"KG_XMLfile/Order/Vendor"},{"order":2,"targetName":"KG_XMLfile","targetfield":"OrderNumber","targetfieldpath":"/Order/OrderNumber","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1780306111724","elementItem":{"elementType":"SourceElement","name":"OrderNumber","expression":"$Input_KG_XMLfile/Order/OrderNumber","paramsCount":0,"syntax":"$Input_KG_XMLfile/Order/OrderNumber"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1780306111725_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1780306111725"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1780306111725","elementItem":{"elementType":"TargetElement","name":"OrderNumber","expression":"$Input_KG_XMLfile/Order/OrderNumber","paramsCount":1,"syntax":"KG_XMLfile/Order/OrderNumber"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1780306111724"]}],"expression":"$Input_KG_XMLfile/Order/OrderNumber","targetrecord":"Order","mapping":[{"sourceName":"KG_XMLfile","operatortype":"field","sourcefield":"OrderNumber","sourcefielddisplayname":"OrderNumber","sourcefieldpath":"/Order/OrderNumber","sourcerecord":"Order","id":"Mapping-15"}],"markComplete":false,"mapId":"KG_XMLfile/Order/OrderNumber"},{"order":2,"targetName":"KG_XMLfile","targetfield":"Attention","targetfieldpath":"/Order/Attention","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1780306113668","elementItem":{"elementType":"SourceElement","name":"Attention","expression":"$Input_KG_XMLfile/Order/Attention","paramsCount":0,"syntax":"$Input_KG_XMLfile/Order/Attention"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1780306113669_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1780306113669"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1780306113669","elementItem":{"elementType":"TargetElement","name":"Attention","expression":"$Input_KG_XMLfile/Order/Attention","paramsCount":1,"syntax":"KG_XMLfile/Order/Attention"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1780306113668"]}],"expression":"$Input_KG_XMLfile/Order/Attention","targetrecord":"Order","mapping":[{"sourceName":"KG_XMLfile","operatortype":"field","sourcefield":"Attention","sourcefielddisplayname":"Attention","sourcefieldpath":"/Order/Attention","sourcerecord":"Order","id":"Mapping-17"}],"markComplete":false,"mapId":"KG_XMLfile/Order/Attention"},{"order":2,"targetName":"KG_XMLfile","targetfield":"ShipAddr1","targetfieldpath":"/Order/ShipAddr1","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1780306115971","elementItem":{"elementType":"SourceElement","name":"ShipAddr1","expression":"$Input_KG_XMLfile/Order/ShipAddr1","paramsCount":0,"syntax":"$Input_KG_XMLfile/Order/ShipAddr1"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1780306115972_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1780306115972"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1780306115972","elementItem":{"elementType":"TargetElement","name":"ShipAddr1","expression":"$Input_KG_XMLfile/Order/ShipAddr1","paramsCount":1,"syntax":"KG_XMLfile/Order/ShipAddr1"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1780306115971"]}],"expression":"$Input_KG_XMLfile/Order/ShipAddr1","targetrecord":"Order","mapping":[{"sourceName":"KG_XMLfile","operatortype":"field","sourcefield":"ShipAddr1","sourcefielddisplayname":"ShipAddr1","sourcefieldpath":"/Order/ShipAddr1","sourcerecord":"Order","id":"Mapping-18"}],"markComplete":false,"mapId":"KG_XMLfile/Order/ShipAddr1"},{"order":2,"targetName":"KG_XMLfile","targetfield":"Ship_State","targetfieldpath":"/Order/Ship_State","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1780306118393","elementItem":{"elementType":"SourceElement","name":"Ship_State","expression":"$Input_KG_XMLfile/Order/Ship_State","paramsCount":0,"syntax":"$Input_KG_XMLfile/Order/Ship_State"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1780306118394_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1780306118394"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1780306118394","elementItem":{"elementType":"TargetElement","name":"Ship_State","expression":"$Input_KG_XMLfile/Order/Ship_State","paramsCount":1,"syntax":"KG_XMLfile/Order/Ship_State"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1780306118393"]}],"expression":"$Input_KG_XMLfile/Order/Ship_State","targetrecord":"Order","mapping":[{"sourceName":"KG_XMLfile","operatortype":"field","sourcefield":"Ship_State","sourcefielddisplayname":"Ship_State","sourcefieldpath":"/Order/Ship_State","sourcerecord":"Order","id":"Mapping-20"}],"markComplete":false,"mapId":"KG_XMLfile/Order/Ship_State"},{"order":2,"targetName":"KG_XMLfile","targetfield":"Ship_Zip","targetfieldpath":"/Order/Ship_Zip","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1780306121220","elementItem":{"elementType":"SourceElement","name":"Ship_Zip","expression":"$Input_KG_XMLfile/Order/Ship_Zip","paramsCount":0,"syntax":"$Input_KG_XMLfile/Order/Ship_Zip"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1780306121221_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1780306121221"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1780306121221","elementItem":{"elementType":"TargetElement","name":"Ship_Zip","expression":"$Input_KG_XMLfile/Order/Ship_Zip","paramsCount":1,"syntax":"KG_XMLfile/Order/Ship_Zip"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1780306121220"]}],"expression":"$Input_KG_XMLfile/Order/Ship_Zip","targetrecord":"Order","mapping":[{"sourceName":"KG_XMLfile","operatortype":"field","sourcefield":"Ship_Zip","sourcefielddisplayname":"Ship_Zip","sourcefieldpath":"/Order/Ship_Zip","sourcerecord":"Order","id":"Mapping-21"}],"markComplete":false,"mapId":"KG_XMLfile/Order/Ship_Zip"},{"order":2,"targetName":"KG_XMLfile","targetfield":"Ship_Country","targetfieldpath":"/Order/Ship_Country","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1780306122277","elementItem":{"elementType":"SourceElement","name":"Ship_Country","expression":"$Input_KG_XMLfile/Order/Ship_Country","paramsCount":0,"syntax":"$Input_KG_XMLfile/Order/Ship_Country"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1780306122278_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1780306122278"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1780306122278","elementItem":{"elementType":"TargetElement","name":"Ship_Country","expression":"$Input_KG_XMLfile/Order/Ship_Country","paramsCount":1,"syntax":"KG_XMLfile/Order/Ship_Country"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1780306122277"]}],"expression":"$Input_KG_XMLfile/Order/Ship_Country","targetrecord":"Order","mapping":[{"sourceName":"KG_XMLfile","operatortype":"field","sourcefield":"Ship_Country","sourcefielddisplayname":"Ship_Country","sourcefieldpath":"/Order/Ship_Country","sourcerecord":"Order","id":"Mapping-22"}],"markComplete":false,"mapId":"KG_XMLfile/Order/Ship_Country"},{"order":2,"targetName":"KG_XMLfile","targetfield":"Quantity","targetfieldpath":"/Order/Quantity","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1780306123272","elementItem":{"elementType":"SourceElement","name":"Quantity","expression":"$Input_KG_XMLfile/Order/Quantity","paramsCount":0,"syntax":"$Input_KG_XMLfile/Order/Quantity"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1780306123273_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1780306123273"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1780306123273","elementItem":{"elementType":"TargetElement","name":"Quantity","expression":"$Input_KG_XMLfile/Order/Quantity","paramsCount":1,"syntax":"KG_XMLfile/Order/Quantity"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1780306123272"]}],"expression":"$Input_KG_XMLfile/Order/Quantity","targetrecord":"Order","mapping":[{"sourceName":"KG_XMLfile","operatortype":"field","sourcefield":"Quantity","sourcefielddisplayname":"Quantity","sourcefieldpath":"/Order/Quantity","sourcerecord":"Order","id":"Mapping-23"}],"markComplete":false,"mapId":"KG_XMLfile/Order/Quantity"},{"order":2,"targetName":"KG_XMLfile","targetfield":"Item_Code","targetfieldpath":"/Order/Item_Code","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1780306124832","elementItem":{"elementType":"SourceElement","name":"Item_Code","expression":"$Input_KG_XMLfile/Order/Item_Code","paramsCount":0,"syntax":"$Input_KG_XMLfile/Order/Item_Code"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1780306124833_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1780306124833"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1780306124833","elementItem":{"elementType":"TargetElement","name":"Item_Code","expression":"$Input_KG_XMLfile/Order/Item_Code","paramsCount":1,"syntax":"KG_XMLfile/Order/Item_Code"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1780306124832"]}],"expression":"$Input_KG_XMLfile/Order/Item_Code","targetrecord":"Order","mapping":[{"sourceName":"KG_XMLfile","operatortype":"field","sourcefield":"Item_Code","sourcefielddisplayname":"Item_Code","sourcefieldpath":"/Order/Item_Code","sourcerecord":"Order","id":"Mapping-24"}],"markComplete":false,"mapId":"KG_XMLfile/Order/Item_Code"},{"order":2,"targetName":"KG_XMLfile","targetfield":"Part_Number","targetfieldpath":"/Order/Part_Number","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1780306125900","elementItem":{"elementType":"SourceElement","name":"Part_Number","expression":"$Input_KG_XMLfile/Order/Part_Number","paramsCount":0,"syntax":"$Input_KG_XMLfile/Order/Part_Number"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1780306125901_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1780306125901"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1780306125901","elementItem":{"elementType":"TargetElement","name":"Part_Number","expression":"$Input_KG_XMLfile/Order/Part_Number","paramsCount":1,"syntax":"KG_XMLfile/Order/Part_Number"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1780306125900"]}],"expression":"$Input_KG_XMLfile/Order/Part_Number","targetrecord":"Order","mapping":[{"sourceName":"KG_XMLfile","operatortype":"field","sourcefield":"Part_Number","sourcefielddisplayname":"Part_Number","sourcefieldpath":"/Order/Part_Number","sourcerecord":"Order","id":"Mapping-25"}],"markComplete":false,"mapId":"KG_XMLfile/Order/Part_Number"},{"order":2,"targetName":"KG_XMLfile","targetfield":"Description","targetfieldpath":"/Order/Description","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1780306127521","elementItem":{"elementType":"SourceElement","name":"Description","expression":"$Input_KG_XMLfile/Order/Description","paramsCount":0,"syntax":"$Input_KG_XMLfile/Order/Description"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1780306127522_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1780306127522"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1780306127522","elementItem":{"elementType":"TargetElement","name":"Description","expression":"$Input_KG_XMLfile/Order/Description","paramsCount":1,"syntax":"KG_XMLfile/Order/Description"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1780306127521"]}],"expression":"$Input_KG_XMLfile/Order/Description","targetrecord":"Order","mapping":[{"sourceName":"KG_XMLfile","operatortype":"field","sourcefield":"Description","sourcefielddisplayname":"Description","sourcefieldpath":"/Order/Description","sourcerecord":"Order","id":"Mapping-26"}],"markComplete":false,"mapId":"KG_XMLfile/Order/Description"},{"order":2,"targetName":"KG_XMLfile","targetfield":"Unit_Price","targetfieldpath":"/Order/Unit_Price","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1780306128854","elementItem":{"elementType":"SourceElement","name":"Unit_Price","expression":"$Input_KG_XMLfile/Order/Unit_Price","paramsCount":0,"syntax":"$Input_KG_XMLfile/Order/Unit_Price"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1780306128855_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1780306128855"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1780306128855","elementItem":{"elementType":"TargetElement","name":"Unit_Price","expression":"$Input_KG_XMLfile/Order/Unit_Price","paramsCount":1,"syntax":"KG_XMLfile/Order/Unit_Price"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1780306128854"]}],"expression":"$Input_KG_XMLfile/Order/Unit_Price","targetrecord":"Order","mapping":[{"sourceName":"KG_XMLfile","operatortype":"field","sourcefield":"Unit_Price","sourcefielddisplayname":"Unit_Price","sourcefieldpath":"/Order/Unit_Price","sourcerecord":"Order","id":"Mapping-27"}],"markComplete":false,"mapId":"KG_XMLfile/Order/Unit_Price"},{"order":2,"targetName":"KG_XMLfile","targetfield":"UoM","targetfieldpath":"/Order/UoM","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1780306130045","elementItem":{"elementType":"SourceElement","name":"UoM","expression":"$Input_KG_XMLfile/Order/UoM","paramsCount":0,"syntax":"$Input_KG_XMLfile/Order/UoM"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1780306130046_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1780306130046"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1780306130046","elementItem":{"elementType":"TargetElement","name":"UoM","expression":"$Input_KG_XMLfile/Order/UoM","paramsCount":1,"syntax":"KG_XMLfile/Order/UoM"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1780306130045"]}],"expression":"$Input_KG_XMLfile/Order/UoM","targetrecord":"Order","mapping":[{"sourceName":"KG_XMLfile","operatortype":"field","sourcefield":"UoM","sourcefielddisplayname":"UoM","sourcefieldpath":"/Order/UoM","sourcerecord":"Order","id":"Mapping-28"}],"markComplete":false,"mapId":"KG_XMLfile/Order/UoM"},{"order":2,"targetName":"KG_XMLfile","targetfield":"SubTotal","targetfieldpath":"/Order/SubTotal","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1780306132487","elementItem":{"elementType":"SourceElement","name":"SubTotal","expression":"$Input_KG_XMLfile/Order/SubTotal","paramsCount":0,"syntax":"$Input_KG_XMLfile/Order/SubTotal"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1780306132488_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1780306132488"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1780306132488","elementItem":{"elementType":"TargetElement","name":"SubTotal","expression":"$Input_KG_XMLfile/Order/SubTotal","paramsCount":1,"syntax":"KG_XMLfile/Order/SubTotal"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1780306132487"]}],"expression":"$Input_KG_XMLfile/Order/SubTotal","targetrecord":"Order","mapping":[{"sourceName":"KG_XMLfile","operatortype":"field","sourcefield":"SubTotal","sourcefielddisplayname":"SubTotal","sourcefieldpath":"/Order/SubTotal","sourcerecord":"Order","id":"Mapping-29"}],"markComplete":false,"mapId":"KG_XMLfile/Order/SubTotal"},{"order":1,"targetName":"KG_TextLayout","targetfield":"Name","targetfieldpath":"/Root/Record/Name","targetrecord":"Record","mapping":[{"sourceName":"KG_TextLayout","operatortype":"field","sourcefield":"Name","sourcefielddisplayname":"Name","sourcefieldpath":"/Root/Record/Name","sourcerecord":"Record","id":"Mapping-2"}],"markComplete":false,"mapId":"KG_TextLayout/Root/Record/Name","expressionNote":"","expression":"$Input_KG_TextLayout/Root/Record/Name","expressionPath":"$Input_KG_TextLayout/Root/Record/Name","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1780306106649","elementItem":{"elementType":"SourceElement","name":"Name","expression":"$Input_KG_TextLayout/Root/Record/Name","paramsCount":0,"syntax":"$Input_KG_TextLayout/Root/Record/Name"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1780306106650_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1780306106650"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1780306106650","elementItem":{"elementType":"TargetElement","name":"Name","expression":"$Input_KG_TextLayout/Root/Record/Name","paramsCount":1,"syntax":"KG_TextLayout/Root/Record/Name"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1780306106649"]}],"preCustomXSL":"<xsl:message>\n    first layout before\n    <\/xsl:message>"},{"order":1,"targetName":"KG_TextLayout","targetfield":"Company","targetfieldpath":"/Root/Record/Company","targetrecord":"Record","mapping":[{"sourceName":"KG_TextLayout","operatortype":"field","sourcefield":"Company","sourcefielddisplayname":"Company","sourcefieldpath":"/Root/Record/Company","sourcerecord":"Record","id":"Mapping-4"}],"markComplete":false,"mapId":"KG_TextLayout/Root/Record/Company","expressionNote":"","expression":"$Input_KG_TextLayout/Root/Record/Company","expressionPath":"$Input_KG_TextLayout/Root/Record/Company","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1780306106652","elementItem":{"elementType":"SourceElement","name":"Company","expression":"$Input_KG_TextLayout/Root/Record/Company","paramsCount":0,"syntax":"$Input_KG_TextLayout/Root/Record/Company"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1780306106653_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1780306106653"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1780306106653","elementItem":{"elementType":"TargetElement","name":"Company","expression":"$Input_KG_TextLayout/Root/Record/Company","paramsCount":1,"syntax":"KG_TextLayout/Root/Record/Company"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1780306106652"]}],"postCustomXSL":"<xsl:message>\n    first layout after\n    <\/xsl:message>"},{"order":2,"targetName":"KG_XMLfile","targetfield":"Ship_To","targetfieldpath":"/Order/Ship_To","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1780306112744","elementItem":{"elementType":"SourceElement","name":"Ship_To","expression":"$Input_KG_XMLfile/Order/Ship_To","paramsCount":0,"syntax":"$Input_KG_XMLfile/Order/Ship_To"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1780306112745_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1780306112745"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1780306112745","elementItem":{"elementType":"TargetElement","name":"Ship_To","expression":"$Input_KG_XMLfile/Order/Ship_To","paramsCount":1,"syntax":"KG_XMLfile/Order/Ship_To"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1780306112744"]}],"expression":"$Input_KG_XMLfile/Order/Ship_To","targetrecord":"Order","mapping":[{"sourceName":"KG_XMLfile","operatortype":"field","sourcefield":"Ship_To","sourcefielddisplayname":"Ship_To","sourcefieldpath":"/Order/Ship_To","sourcerecord":"Order","id":"Mapping-16"}],"markComplete":false,"mapId":"KG_XMLfile/Order/Ship_To","preCustomXSL":"<xsl:message>\n    second layout before\n    <\/xsl:message>","postCustomXSL":"<xsl:message>\n    second layout after\n    <\/xsl:message>"},{"order":1,"targetName":"KG_TextLayout","targetfield":"Age","targetfieldpath":"/Root/Record/Age","targetrecord":"Record","mapping":[{"sourceName":"KG_TextLayout","operatortype":"field","sourcefield":"Age","sourcefielddisplayname":"Age","sourcefieldpath":"/Root/Record/Age","sourcerecord":"Record","id":"Mapping-1"}],"markComplete":false,"mapId":"KG_TextLayout/Root/Record/Age","expressionNote":"","expression":"","expressionPath":"","defaultEditor":"textual","confidence":""},{"order":2,"targetName":"KG_XMLfile","targetfield":"ShipAddr2","targetfieldpath":"/Order/ShipAddr2","targetrecord":"Order","mapping":[],"markComplete":false,"mapId":"KG_XMLfile/Order/ShipAddr2","expressionNote":"","expression":"'ss'","expressionPath":"'ss'","defaultEditor":"textual","confidence":""}],"sourceExpandLevel":3,"targetExpandLevel":3,"modifiedDate":"1780341712000","isSaveAfterWarnings":false,"isAllRequiredFieldsMapped":true,"totalRequiredFields":1,"unmappedRequiredFields":0}]]></au_json>
+        <au_aimapFreeze><![CDATA[0]]></au_aimapFreeze>
+        <au_customAutoMap><![CDATA[]]></au_customAutoMap>
+        <au_pdfFileName><![CDATA[Adp_Map_Rules3112130358762041175.pdf]]></au_pdfFileName>
+        <au_modifiedDate><![CDATA[2026-06-01T19:22:45]]></au_modifiedDate>
+        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_creationDate><![CDATA[2026-06-01T09:28:46]]></au_creationDate>
+        <au_userOwner><![CDATA[IndigoUser:1510352748725284864]]></au_userOwner>
+    </AU_MAPPINGTRANSFORMATION>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_persistDataEnabled" type="3"/>
+        <column name="au_splitFile" type="3"/>
+        <column name="au_numberOfRecords" type="4"/>
+        <column name="au_optimizedLoading" type="3"/>
+        <column name="au_sourceSchema" type="12"/>
+        <column name="au_targetSchema" type="12"/>
+        <column name="au_xslFile" type="-1"/>
+        <column name="au_metadata" type="12"/>
+        <column name="au_mapXmlFile" type="-1"/>
+        <column name="au_json" type="-1"/>
+        <column name="au_pdfFileName" type="12"/>
+        <column name="au_parallelProcessing" type="3"/>
+        <column name="au_concurrentProcessors" type="4"/>
+        <column name="au_dbInfoName" type="12"/>
+        <column name="au_customAutoMap" type="-1"/>
+        <column name="au_valueMap" type="-1"/>
+        <column name="au_xslTemplate" type="-1"/>
+        <column name="au_xslTransformer" type="12"/>
+        <column name="au_characterSetEncoding" type="12"/>
+        <column name="au_enableAIMap" type="3"/>
+        <column name="AU_REUSABLE" type="3"/>
+        <column name="au_storedProcedure" type="-1"/>
+        <column name="au_aimapFreeze" type="3"/>
+        <column name="au_aimapTrained" type="3"/>
+        <column name="AU_MULTI_VALUED_MAP" type="-1"/>
+    </columnInfo>
+</data>
