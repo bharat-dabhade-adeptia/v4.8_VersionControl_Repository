@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AC_TRANSACTION_TEMPLATE>
-        <LOCKED_BY_USER><![CDATA[null]]></LOCKED_BY_USER>
-        <COMPANY_ID><![CDATA[1]]></COMPANY_ID>
         <MODIFIED_DATE><![CDATA[2026-06-01T07:16:48]]></MODIFIED_DATE>
-        <DEST_REFERENCE_FIELD><![CDATA[]]></DEST_REFERENCE_FIELD>
-        <PROJECT_OWNER><![CDATA[Project:1510902581370433536]]></PROJECT_OWNER>
-        <DISPLAY_TYPE><![CDATA[700]]></DISPLAY_TYPE>
-        <CREATED_BY><![CDATA[Sv COIT]]></CREATED_BY>
+        <NAME><![CDATA[sv_cvt_temp]]></NAME>
+        <SRC_APP_TYPE><![CDATA[ftp:ftp:FTP]]></SRC_APP_TYPE>
         <LOG_MODE><![CDATA[null]]></LOG_MODE>
         <MODIFIED_USER><![CDATA[IndigoUser:127000000001107055536473900001]]></MODIFIED_USER>
-        <DEST_APP_TYPE><![CDATA[ftp:ftp:FTP]]></DEST_APP_TYPE>
+        <SRC_CRITERIA><![CDATA[null]]></SRC_CRITERIA>
+        <CREATION_DATE><![CDATA[2026-06-01T07:13:40]]></CREATION_DATE>
+        <MODIFIED_ROLE><![CDATA[1]]></MODIFIED_ROLE>
+        <PROCESS_TYPE><![CDATA[700]]></PROCESS_TYPE>
+        <COMPANY_ID><![CDATA[1]]></COMPANY_ID>
+        <TYPE><![CDATA[504]]></TYPE>
         <DIRECTION><![CDATA[3200]]></DIRECTION>
-        <PARTNER_CONFIG_INFO><![CDATA[{"webFormData":{},"partnerConfiguration":[]}]]></PARTNER_CONFIG_INFO>
-        <SRC_APP_TYPE><![CDATA[ftp:ftp:FTP]]></SRC_APP_TYPE>
-        <REVISION><![CDATA[null]]></REVISION>
-        <CREATED_GROUP><![CDATA[IndigoGroup:192168001075148181566048300002]]></CREATED_GROUP>
-        <CREATED_ROLE><![CDATA[1509866678951518208]]></CREATED_ROLE>
+        <IN_USE><![CDATA[null]]></IN_USE>
+        <ACCESS_LEVEL><![CDATA[3100]]></ACCESS_LEVEL>
+        <DEST_APP_TYPE><![CDATA[ftp:ftp:FTP]]></DEST_APP_TYPE>
+        <APPROVAL_TYPE><![CDATA[3000]]></APPROVAL_TYPE>
+        <DISPLAY_TYPE><![CDATA[700]]></DISPLAY_TYPE>
+        <SRC_REFERENCE_FIELD><![CDATA[]]></SRC_REFERENCE_FIELD>
+        <PROJECT_OWNER><![CDATA[Project:1510902581370433536]]></PROJECT_OWNER>
+        <SRC_TRIGGER><![CDATA[FileCreated]]></SRC_TRIGGER>
+        <ERROR_ID><![CDATA[null]]></ERROR_ID>
         <DEST_EXTERNAL_ID><![CDATA[]]></DEST_EXTERNAL_ID>
-        <DESCRIPTION><![CDATA[sv_cvt_temp]]></DESCRIPTION>
         <MODIFIED_BY><![CDATA[Admin User]]></MODIFIED_BY>
+        <DATA_ENCODING><![CDATA[UTF-8]]></DATA_ENCODING>
+        <PARAMETERS_INFO><![CDATA[{"routingType":3500,"dataEncryptionAtRest":"useGlobalPolicy","mapperValidatorId":"","mapperExternalFunctionId":"","emailNotificationFormat":"Default","loggingLevel":"ERROR","activitiesLoggingRetention":"L"}]]></PARAMETERS_INFO>
+        <ID><![CDATA[1510904146961510400]]></ID>
+        <IN_USE_BY><![CDATA[null]]></IN_USE_BY>
+        <CREATED_BY><![CDATA[Sv COIT]]></CREATED_BY>
+        <DESCRIPTION><![CDATA[sv_cvt_temp]]></DESCRIPTION>
+        <SYNCHRONIZED><![CDATA[null]]></SYNCHRONIZED>
+        <DISPLAY_NAME><![CDATA[sv_cvt_temp]]></DISPLAY_NAME>
+        <DOCUMENTATION><![CDATA[]]></DOCUMENTATION>
+        <LOCKED_TIMESTAMP><![CDATA[null]]></LOCKED_TIMESTAMP>
+        <LOCKED_STATUS><![CDATA[2301]]></LOCKED_STATUS>
+        <LOCKED_BY_USER><![CDATA[null]]></LOCKED_BY_USER>
+        <STATUS><![CDATA[601]]></STATUS>
+        <VARIABLE_INFO><![CDATA[{"transactionVariable":[{"xtype":"textfield","grouptitle":"svs","variableName":"sdv","allowBlank":false}]}]]></VARIABLE_INFO>
+        <NOTIFICATION_MODE><![CDATA[1900]]></NOTIFICATION_MODE>
         <MODIFIED_GROUP><![CDATA[IndigoGroup:192168001075148181566048300002]]></MODIFIED_GROUP>
         <DEST_ACTION><![CDATA[createnewfile]]></DEST_ACTION>
-        <LOCKED_TIMESTAMP><![CDATA[null]]></LOCKED_TIMESTAMP>
-        <IN_USE_BY><![CDATA[null]]></IN_USE_BY>
-        <IN_USE><![CDATA[null]]></IN_USE>
-        <SYNCHRONIZED><![CDATA[null]]></SYNCHRONIZED>
-        <ID><![CDATA[1510904146961510400]]></ID>
-        <SRC_REFERENCE_FIELD><![CDATA[]]></SRC_REFERENCE_FIELD>
-        <CREATION_DATE><![CDATA[2026-06-01T07:13:40]]></CREATION_DATE>
-        <STATUS><![CDATA[601]]></STATUS>
-        <ERROR_ID><![CDATA[null]]></ERROR_ID>
-        <VARIABLE_INFO><![CDATA[{"transactionVariable":[{"xtype":"textfield","grouptitle":"svs","variableName":"sdv","allowBlank":false}]}]]></VARIABLE_INFO>
-        <NAME><![CDATA[sv_cvt_temp]]></NAME>
-        <MODIFIED_ROLE><![CDATA[1]]></MODIFIED_ROLE>
+        <CREATED_ROLE><![CDATA[1509866678951518208]]></CREATED_ROLE>
+        <DEST_REFERENCE_FIELD><![CDATA[]]></DEST_REFERENCE_FIELD>
         <CREATED_USER><![CDATA[IndigoUser:1509869645897310208]]></CREATED_USER>
-        <PROCESS_TYPE><![CDATA[700]]></PROCESS_TYPE>
-        <SRC_CRITERIA><![CDATA[null]]></SRC_CRITERIA>
-        <TYPE><![CDATA[504]]></TYPE>
-        <NOTIFICATION_MODE><![CDATA[1900]]></NOTIFICATION_MODE>
-        <SRC_TRIGGER><![CDATA[FileCreated]]></SRC_TRIGGER>
-        <DATA_ENCODING><![CDATA[UTF-8]]></DATA_ENCODING>
-        <DISPLAY_NAME><![CDATA[sv_cvt_temp]]></DISPLAY_NAME>
-        <LOCKED_STATUS><![CDATA[2301]]></LOCKED_STATUS>
-        <ACCESS_LEVEL><![CDATA[3100]]></ACCESS_LEVEL>
+        <REVISION><![CDATA[null]]></REVISION>
+        <CREATED_GROUP><![CDATA[IndigoGroup:192168001075148181566048300002]]></CREATED_GROUP>
+        <PARTNER_CONFIG_INFO><![CDATA[{"webFormData":{},"partnerConfiguration":[]}]]></PARTNER_CONFIG_INFO>
         <CONTACT_USER><![CDATA[COIT@yopmail.com]]></CONTACT_USER>
-        <DOCUMENTATION><![CDATA[]]></DOCUMENTATION>
-        <APPROVAL_TYPE><![CDATA[3000]]></APPROVAL_TYPE>
-        <PARAMETERS_INFO><![CDATA[{"routingType":3500,"dataEncryptionAtRest":"useGlobalPolicy","mapperValidatorId":"","mapperExternalFunctionId":"","emailNotificationFormat":"Default","loggingLevel":"ERROR","activitiesLoggingRetention":"L"}]]></PARAMETERS_INFO>
     </AC_TRANSACTION_TEMPLATE>
     <columnInfo dbtype="4">
         <column name="ID" type="-5"/>
