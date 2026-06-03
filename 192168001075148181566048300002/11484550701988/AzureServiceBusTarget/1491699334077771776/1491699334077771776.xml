@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_AzureServiceBusTarget>
+        <au_azureServiceBusType><![CDATA[Topic]]></au_azureServiceBusType>
+        <au_labelandsubject><![CDATA[null]]></au_labelandsubject>
+        <au_to><![CDATA[null]]></au_to>
+        <au_queue><![CDATA[null]]></au_queue>
+        <au_customProperty><![CDATA[null]]></au_customProperty>
+        <au_version><![CDATA[1]]></au_version>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_azureServiceBusAccount><![CDATA[1493139126139211776]]></au_azureServiceBusAccount>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_messageid><![CDATA[null]]></au_messageid>
+        <au_messageTypes><![CDATA[plaintext]]></au_messageTypes>
+        <au_messageSplitter><![CDATA[null]]></au_messageSplitter>
+        <au_modifiedDate><![CDATA[2026-04-29T09:56:36]]></au_modifiedDate>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_enableMessageSplitter><![CDATA[0]]></au_enableMessageSplitter>
+        <au_previousVersion><![CDATA[null]]></au_previousVersion>
+        <au_modifiedBy><![CDATA[IndigoUser:1508695319341551616]]></au_modifiedBy>
+        <au_sessionId><![CDATA[null]]></au_sessionId>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_creationDate><![CDATA[2026-04-09T07:20:35]]></au_creationDate>
+        <au_entityName><![CDATA[bd_Normal_asb_trg]]></au_entityName>
+        <au_batchSize><![CDATA[1]]></au_batchSize>
+        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
+        <au_id><![CDATA[1491699334077771776]]></au_id>
+        <au_usedInTemplateOrTransaction><![CDATA[0]]></au_usedInTemplateOrTransaction>
+        <au_topic><![CDATA[bd_topic]]></au_topic>
+        <au_correlationid><![CDATA[null]]></au_correlationid>
+        <au_contenttype><![CDATA[text/plain]]></au_contenttype>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_description><![CDATA[bd_Normal_asb_trg]]></au_description>
+        <au_replyto><![CDATA[null]]></au_replyto>
+        <au_userOwner><![CDATA[IndigoUser:1508695319341551616]]></au_userOwner>
+    </AU_AzureServiceBusTarget>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_azureServiceBusAccount" type="12"/>
+        <column name="au_azureServiceBusType" type="12"/>
+        <column name="au_topic" type="12"/>
+        <column name="au_queue" type="12"/>
+        <column name="au_enableMessageSplitter" type="3"/>
+        <column name="au_messageTypes" type="12"/>
+        <column name="au_messageSplitter" type="12"/>
+        <column name="au_contenttype" type="12"/>
+        <column name="au_correlationid" type="12"/>
+        <column name="au_messageid" type="12"/>
+        <column name="au_labelandsubject" type="12"/>
+        <column name="au_replyto" type="12"/>
+        <column name="au_to" type="12"/>
+        <column name="au_customProperty" type="-1"/>
+        <column name="au_batchSize" type="3"/>
+        <column name="au_sessionId" type="12"/>
+        <column name="au_usedInTemplateOrTransaction" type="3"/>
+    </columnInfo>
+</data>
